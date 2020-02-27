@@ -3,7 +3,16 @@
 buildscript {
     ext.kotlin_version = '1.3.21'
     repositories {
+        maven { url "http://mvn.mob.com/android" }
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         google()
+        mavenCentral()
+        maven { url "https://maven.google.com" }
+        maven { url 'https://dl.bintray.com/umsdk/release' }
+        maven { url "http://kochava.bintray.com/maven"}
+        maven { url 'https://maven.fabric.io/public' }
+        maven { url "https://jitpack.io" }
+//        maven { url 'http://minf.top:8081/nexus/content/repositories/'}
         jcenter()
         
     }
@@ -17,7 +26,16 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url "http://mvn.mob.com/android" }
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         google()
+        mavenCentral()
+        maven { url "https://maven.google.com" }
+        maven { url 'https://dl.bintray.com/umsdk/release' }
+        maven { url "http://kochava.bintray.com/maven"}
+        maven { url 'https://maven.fabric.io/public' }
+        maven { url "https://jitpack.io" }
+//        maven { url 'http://minf.top:8081/nexus/content/repositories/'}
         jcenter()
         
     }
