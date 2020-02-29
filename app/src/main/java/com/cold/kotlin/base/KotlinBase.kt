@@ -38,7 +38,6 @@ private fun defineVariable() {
  * 3.返回值定义在函数末尾，用冒号：隔开
  * 4.如果没有返回值可以返回Unit，或者省略
  *
- *
  * /* 嵌套注释 */
  */
 fun add(x : Int, y : Int) : Int {
