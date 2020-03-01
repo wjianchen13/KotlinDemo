@@ -1,4 +1,4 @@
-package com.cold.kotlin.base.tclass
+package com.cold.kotlin.tclass
 
 /**
  * Kotlin类允许定义一个柱构造器和若干个第二构造器
