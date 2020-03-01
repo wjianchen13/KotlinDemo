@@ -1,5 +1,10 @@
 package com.cold.kotlin.base
 
+/**
+ * kotlin控制流
+ *
+ *
+ */
 fun main(args : Array<String>) {
 //    normalif()
 //    ifExpression()
@@ -11,12 +16,13 @@ fun main(args : Array<String>) {
 //    useIterator()
 //    useIndex1()
 //    testWhile()
-    testDoWhile();
+    testDoWhile()
 
 }
 
 /**
  *  条件语句
+ *  if条件本身就是表达式，有返回值，kotlin没有三元操作符（condition ? then : else）
  */
 private fun normalif() {
     var a : Int = 20
@@ -51,6 +57,11 @@ private fun ifExpression() {
 
 /**
  *  标准When语句
+ *  when语句代替了传统的switch语句
+ *  1.如果有多条分支，需要使用大括号{}
+ *  2.满足条件之后，会自动终止when语句执行，不需要加上break
+ *  3.when可以作为表达式使用，when满足条件分支的最后一个表达式就是when表达式的返回值
+ *  4.when语句的条件可以是任意表达式
  */
 private fun normalWhen() {
     var x = 1
@@ -105,7 +116,6 @@ private fun sameCode() {
         }
     }
 }
-
 
 /**
  * 使用in关键字确定范围
