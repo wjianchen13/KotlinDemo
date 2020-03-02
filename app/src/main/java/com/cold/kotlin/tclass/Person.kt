@@ -10,6 +10,7 @@ package com.cold.kotlin.tclass
  * 通过另外一个第二构造器间接调用柱构造器
  * 在主构造参数中可以使用var和val，但是在第二构造参数中不能使用var和val，所以
  * 第二构造器的参数都是只读的。
+ * kotlin类的实例化并不需要使用关键字new，直接使用类名()的方式实例化类
  */
 class Person(firstName : String) {
     var name = firstName
