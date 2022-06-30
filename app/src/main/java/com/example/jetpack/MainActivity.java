@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.jetpack.lifecycle.LifeCycleActivity;
+import com.example.jetpack.viewmodel.ViewModelActivity;
+import com.example.jetpack.viewmodel.ViewModelActivity2;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,4 +21,14 @@ public class MainActivity extends AppCompatActivity {
     public void onLifeCycle(View v) {
         startActivity(new Intent(this, LifeCycleActivity.class));
     }
+
+    public void onViewModel(View v) {
+        startActivity(new Intent(this, ViewModelActivity.class));
+    }
+
+    public void onViewModel2(View v) {
+        startActivity(new Intent(this, ViewModelActivity2.class));
+    }
+
+
 }
