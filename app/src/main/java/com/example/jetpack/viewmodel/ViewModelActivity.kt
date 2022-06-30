@@ -7,6 +7,11 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.jetpack.R
 import kotlinx.android.synthetic.main.activity_viewmodel.*
 
+/**
+ * ViewModel 的生命周期是长于Activity
+ * 的，如果把Activity 的实例传给ViewModel ，就很有可能会因为Activity 无法释放而造成内存泄
+ * 漏，这是一种非常错误的做法
+ */
 class ViewModelActivity : AppCompatActivity() {
 
     lateinit var viewModel: MainViewModel
