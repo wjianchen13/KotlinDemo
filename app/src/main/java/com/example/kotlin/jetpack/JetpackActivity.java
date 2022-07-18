@@ -1,27 +1,27 @@
-package com.example.kotlin;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.kotlin.jetpack;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.kotlin.jetpack.JetpackActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.kotlin.R;
 import com.example.kotlin.jetpack.lifecycle.LifeCycleActivity;
 import com.example.kotlin.jetpack.livedata.LiveDataActivity;
 import com.example.kotlin.jetpack.viewmodel.ViewModelActivity;
 import com.example.kotlin.jetpack.viewmodel.ViewModelActivity2;
 
-public class MainActivity extends AppCompatActivity {
+public class JetpackActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_jetpack);
     }
 
-    public void onJetpack(View v) {
-        startActivity(new Intent(this, JetpackActivity.class));
+    public void onLifeCycle(View v) {
+        startActivity(new Intent(this, LifeCycleActivity.class));
     }
 
     public void onViewModel(View v) {

@@ -1,4 +1,4 @@
-package com.example.kotlin.viewmodel
+package com.example.kotlin.jetpack.viewmodel
 
 import android.content.Context
 import android.content.SharedPreferences

@@ -1,4 +1,4 @@
-package com.example.kotlin.livedata
+package com.example.kotlin.jetpack.livedata
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

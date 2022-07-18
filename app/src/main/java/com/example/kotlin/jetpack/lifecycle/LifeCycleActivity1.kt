@@ -1,4 +1,4 @@
-package com.example.kotlin.lifecycle
+package com.example.kotlin.jetpack.lifecycle
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

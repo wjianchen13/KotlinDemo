@@ -1,4 +1,4 @@
-package com.example.kotlin.viewmodel
+package com.example.kotlin.jetpack.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

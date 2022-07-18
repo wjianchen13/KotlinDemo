@@ -16,10 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.kotlin.lifecycle.LifeCycleActivity" />
-        <activity android:name="com.example.kotlin.viewmodel.ViewModelActivity" />
-        <activity android:name="com.example.kotlin.viewmodel.ViewModelActivity2" />
-        <activity android:name="com.example.kotlin.livedata.LiveDataActivity" />
+        <activity android:name="com.example.kotlin.jetpack.JetpackActivity" />
+        <activity android:name="com.example.kotlin.jetpack.lifecycle.LifeCycleActivity" />
+        <activity android:name="com.example.kotlin.jetpack.viewmodel.ViewModelActivity" />
+        <activity android:name="com.example.kotlin.jetpack.viewmodel.ViewModelActivity2" />
+        <activity android:name="com.example.kotlin.jetpack.livedata.LiveDataActivity" />
 
     </application>
 
