@@ -1,4 +1,4 @@
-package com.example.jetpack.livedata
+package com.example.kotlin.livedata
 
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.jetpack.R
+import com.example.kotlin.R
 import kotlinx.android.synthetic.main.activity_livedata.*
 
 /**

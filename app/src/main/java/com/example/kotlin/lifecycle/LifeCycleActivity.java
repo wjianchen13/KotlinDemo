@@ -1,4 +1,4 @@
-package com.example.jetpack.lifecycle;
+package com.example.kotlin.lifecycle;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.OnLifecycleEvent;
 
-import com.example.jetpack.R;
+import com.example.kotlin.R;
 
 public class LifeCycleActivity extends AppCompatActivity {
 

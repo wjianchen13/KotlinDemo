@@ -1,4 +1,4 @@
-package com.example.jetpack;
+package com.example.kotlin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,10 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.jetpack.lifecycle.LifeCycleActivity;
-import com.example.jetpack.livedata.LiveDataActivity;
-import com.example.jetpack.viewmodel.ViewModelActivity;
-import com.example.jetpack.viewmodel.ViewModelActivity2;
+import com.example.kotlin.lifecycle.LifeCycleActivity;
+import com.example.kotlin.livedata.LiveDataActivity;
+import com.example.kotlin.viewmodel.ViewModelActivity;
+import com.example.kotlin.viewmodel.ViewModelActivity2;
 
 public class MainActivity extends AppCompatActivity {
 

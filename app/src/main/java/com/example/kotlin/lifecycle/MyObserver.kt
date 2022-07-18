@@ -1,4 +1,4 @@
-package com.example.jetpack.lifecycle
+package com.example.kotlin.lifecycle
 
 import android.util.Log
 import androidx.lifecycle.Lifecycle

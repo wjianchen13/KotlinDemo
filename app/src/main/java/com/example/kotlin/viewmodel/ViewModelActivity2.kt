@@ -1,11 +1,11 @@
-package com.example.jetpack.viewmodel
+package com.example.kotlin.viewmodel
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.example.jetpack.R
+import com.example.kotlin.R
 import kotlinx.android.synthetic.main.activity_viewmodel2.*
 
 class ViewModelActivity2 : AppCompatActivity() {
