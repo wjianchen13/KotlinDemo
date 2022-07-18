@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.jetpack.lifecycle.LifeCycleActivity;
+import com.example.jetpack.livedata.LiveDataActivity;
 import com.example.jetpack.viewmodel.ViewModelActivity;
 import com.example.jetpack.viewmodel.ViewModelActivity2;
 
@@ -30,5 +31,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, ViewModelActivity2.class));
     }
 
-
+    public void onLiveData(View v) {
+        startActivity(new Intent(this, LiveDataActivity.class));
+    }
 }
