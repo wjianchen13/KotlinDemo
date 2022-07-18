@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.kotlin.normal.KotlinActivity" />
+        <activity android:name="com.example.kotlin.normal.var1.VarActivity" />
+
+
+
         <activity android:name="com.example.kotlin.jetpack.JetpackActivity" />
         <activity android:name="com.example.kotlin.jetpack.lifecycle.LifeCycleActivity" />
         <activity android:name="com.example.kotlin.jetpack.viewmodel.ViewModelActivity" />

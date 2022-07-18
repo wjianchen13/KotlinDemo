@@ -5,37 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
 
         <Button
-            android:id="@+id/btn_kotlin"
+            android:id="@+id/btn_var"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 基础"
-            android:onClick="onKotlin"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btn_lifecycle" />
-
-        <Button
-            android:id="@+id/btn_jetpack"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Jetpack"
-            android:onClick="onJetpack"
+            android:text="变量"
+            android:onClick="onVar"
             android:layout_marginTop="10dp"
             android:textAllCaps="false"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
+        <Button
+            android:id="@+id/btn_viewmodel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ViewModel"
+            android:onClick="onViewModel"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_lifecycle" />
 
         <Button
             android:id="@+id/btn_viewmodel2"
@@ -60,6 +59,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btn_viewmodel2" />
-        </LinearLayout>
+
+    </LinearLayout>
 
 </ScrollView>

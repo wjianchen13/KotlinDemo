@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="变量和函数"
+        android:gravity="center"
+        android:onClick="onVar"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_var"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不可变 变量"
+        android:onClick="onVar"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_var1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="可变 变量"
+        android:onClick="onVar1"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_lifecycle" />
+
+    <Button
+        android:id="@+id/btn_viewmodel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewModel2"
+        android:onClick="onViewModel2"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_viewmodel" />
+
+    <Button
+        android:id="@+id/btn_livedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LiveData"
+        android:onClick="onLiveData"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_viewmodel2" />
+
+
+</LinearLayout>
