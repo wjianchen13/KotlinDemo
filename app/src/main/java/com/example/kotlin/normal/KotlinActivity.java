@@ -7,10 +7,8 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlin.R;
-import com.example.kotlin.jetpack.livedata.LiveDataActivity;
-import com.example.kotlin.jetpack.viewmodel.ViewModelActivity;
-import com.example.kotlin.jetpack.viewmodel.ViewModelActivity2;
 import com.example.kotlin.normal.logic.LogicActivity;
+import com.example.kotlin.normal.obj.ObjActivity;
 import com.example.kotlin.normal.var1.FunActivity;
 import com.example.kotlin.normal.var1.VarActivity;
 
@@ -34,7 +32,7 @@ public class KotlinActivity extends AppCompatActivity {
         startActivity(new Intent(this, LogicActivity.class));
     }
 
-    public void onLiveData(View v) {
-        startActivity(new Intent(this, LiveDataActivity.class));
+    public void onObj(View v) {
+        startActivity(new Intent(this, ObjActivity.class));
     }
 }

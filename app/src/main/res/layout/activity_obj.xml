@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="变量和函数"
+        android:text="类和对象"
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:textAllCaps="false" />
@@ -18,8 +18,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="不可变 变量"
-        android:onClick="onVar"
+        android:text="类的简单创建"
+        android:onClick="onTest1"
         android:layout_marginTop="10dp"
         android:textAllCaps="false" />
 
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="可变 变量"
-        android:onClick="onVar1"
+        android:onClick="onTest2"
         android:layout_marginTop="10dp"
         android:textAllCaps="false" />
 

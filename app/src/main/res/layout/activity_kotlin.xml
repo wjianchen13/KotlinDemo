@@ -12,7 +12,6 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btn_var"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="变量"
@@ -21,7 +20,6 @@
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_fun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="函数"
@@ -30,7 +28,6 @@
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_logic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="逻辑控制"
@@ -39,11 +36,10 @@
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_livedata"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LiveData"
-            android:onClick="onLiveData"
+            android:text="类和对象"
+            android:onClick="onObj"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
