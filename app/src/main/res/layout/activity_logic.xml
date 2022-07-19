@@ -8,47 +8,45 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="变量和函数"
+        android:text="逻辑控制 if when while for"
         android:gravity="center"
-        android:onClick="onVar"
-        android:layout_marginTop="10dp"
-        android:textAllCaps="false"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="不可变 变量"
-        android:onClick="onVar"
         android:layout_marginTop="10dp"
         android:textAllCaps="false" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="可变 变量"
-        android:onClick="onVar1"
+        android:text="if语句"
+        android:onClick="onIf"
         android:layout_marginTop="10dp"
         android:textAllCaps="false" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ViewModel2"
-        android:onClick="onViewModel2"
+        android:text="when语句"
+        android:onClick="onWhen"
         android:layout_marginTop="10dp"
         android:textAllCaps="false" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LiveData"
-        android:onClick="onLiveData"
+        android:text="while语句,完全和java一样"
+        android:onClick="onWhile"
         android:layout_marginTop="10dp"
         android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For循环"
+        android:onClick="onFor"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false" />
+
 
 </LinearLayout>

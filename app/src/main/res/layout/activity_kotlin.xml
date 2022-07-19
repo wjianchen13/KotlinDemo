@@ -30,11 +30,11 @@
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_viewmodel2"
+            android:id="@+id/btn_logic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ViewModel2"
-            android:onClick="onViewModel2"
+            android:text="逻辑控制"
+            android:onClick="onLogic"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
