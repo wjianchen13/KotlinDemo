@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="函数"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="函数测试"
+        android:onClick="onTest1"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_var1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="函数语法糖1"
+        android:onClick="onTest2"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_viewmodel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="函数语法糖2"
+        android:onClick="onTest3"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>

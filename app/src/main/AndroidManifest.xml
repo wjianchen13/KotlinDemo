@@ -18,7 +18,7 @@
         </activity>
         <activity android:name="com.example.kotlin.normal.KotlinActivity" />
         <activity android:name="com.example.kotlin.normal.var1.VarActivity" />
-
+        <activity android:name="com.example.kotlin.normal.var1.FunActivity" />
 
 
         <activity android:name="com.example.kotlin.jetpack.JetpackActivity" />

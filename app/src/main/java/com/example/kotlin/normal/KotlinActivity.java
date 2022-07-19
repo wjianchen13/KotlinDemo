@@ -10,6 +10,7 @@ import com.example.kotlin.R;
 import com.example.kotlin.jetpack.livedata.LiveDataActivity;
 import com.example.kotlin.jetpack.viewmodel.ViewModelActivity;
 import com.example.kotlin.jetpack.viewmodel.ViewModelActivity2;
+import com.example.kotlin.normal.var1.FunActivity;
 import com.example.kotlin.normal.var1.VarActivity;
 
 public class KotlinActivity extends AppCompatActivity {
@@ -24,8 +25,8 @@ public class KotlinActivity extends AppCompatActivity {
         startActivity(new Intent(this, VarActivity.class));
     }
 
-    public void onViewModel(View v) {
-        startActivity(new Intent(this, ViewModelActivity.class));
+    public void onFun(View v) {
+        startActivity(new Intent(this, FunActivity.class));
     }
 
     public void onViewModel2(View v) {
