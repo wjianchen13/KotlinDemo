@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlin.R;
+import com.example.kotlin.normal.lambda.LambdaActivity;
 import com.example.kotlin.normal.logic.LogicActivity;
 import com.example.kotlin.normal.obj.ObjActivity;
 import com.example.kotlin.normal.var1.FunActivity;
@@ -35,4 +36,11 @@ public class KotlinActivity extends AppCompatActivity {
     public void onObj(View v) {
         startActivity(new Intent(this, ObjActivity.class));
     }
+
+    public void onLambda(View v) {
+        startActivity(new Intent(this, LambdaActivity.class));
+    }
+
+
+
 }

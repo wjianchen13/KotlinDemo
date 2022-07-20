@@ -43,6 +43,14 @@
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lambda表达式"
+            android:onClick="onLambda"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
     </LinearLayout>
 
 </ScrollView>

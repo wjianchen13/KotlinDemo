@@ -12,6 +12,7 @@ import com.example.kotlin.jetpack.livedata.LiveDataActivity;
 import com.example.kotlin.jetpack.viewmodel.ViewModelActivity;
 import com.example.kotlin.jetpack.viewmodel.ViewModelActivity2;
 import com.example.kotlin.normal.KotlinActivity;
+import com.example.kotlin.normal.lambda.LambdaActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     public void onKotlin(View v) {
         startActivity(new Intent(this, KotlinActivity.class));
     }
+
 
     public void onJetpack(View v) {
         startActivity(new Intent(this, JetpackActivity.class));

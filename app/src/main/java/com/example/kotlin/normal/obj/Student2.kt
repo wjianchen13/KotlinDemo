@@ -8,7 +8,18 @@ package com.example.kotlin.normal.obj
 要让Student类继承Person类。在Java 中继承的关键字是extends，而在Kotlin
 中变成了一个冒号，
  */
-class Student : Person1() {
-    var sno = ""
-    var grade = 0
+class Student2(sno : String, grade : Int) : Person2() {
+    var sno = sno
+    var grade = grade
+
+    /**
+     * Kotlin给我们提供了一个init结构体，所有主构造函数中的逻辑都可以写在里面
+     */
+    init {
+        println("init sno:" + sno  + "  grade: " + grade)
+    }
+
+    fun info() {
+        println("name:" + name  + "  age: " + age + " sno: " + sno + "  grade: " + grade)
+    }
 }
