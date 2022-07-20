@@ -22,7 +22,7 @@
         <activity android:name="com.example.kotlin.normal.logic.LogicActivity" />
         <activity android:name="com.example.kotlin.normal.obj.ObjActivity" />
         <activity android:name="com.example.kotlin.normal.lambda.LambdaActivity" />
-
+        <activity android:name="com.example.kotlin.normal.npe.NpeActivity" />
 
         <activity android:name="com.example.kotlin.jetpack.JetpackActivity" />
         <activity android:name="com.example.kotlin.jetpack.lifecycle.LifeCycleActivity" />
