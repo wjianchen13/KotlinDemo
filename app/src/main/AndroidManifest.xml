@@ -23,6 +23,8 @@
         <activity android:name="com.example.kotlin.normal.obj.ObjActivity" />
         <activity android:name="com.example.kotlin.normal.lambda.LambdaActivity" />
         <activity android:name="com.example.kotlin.normal.npe.NpeActivity" />
+        <activity android:name="com.example.kotlin.normal.standard.StandardActivity" />
+        <activity android:name="com.example.kotlin.normal.standard.StandardActivity1" />
 
         <activity android:name="com.example.kotlin.jetpack.JetpackActivity" />
         <activity android:name="com.example.kotlin.jetpack.lifecycle.LifeCycleActivity" />
