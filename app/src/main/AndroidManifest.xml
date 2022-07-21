@@ -25,6 +25,11 @@
         <activity android:name="com.example.kotlin.normal.npe.NpeActivity" />
         <activity android:name="com.example.kotlin.normal.standard.StandardActivity" />
         <activity android:name="com.example.kotlin.normal.standard.StandardActivity1" />
+        <activity android:name="com.example.kotlin.normal.late.LateActivity" />
+
+        <activity android:name="com.example.kotlin.ui.UiActivity" />
+        <activity android:name="com.example.kotlin.ui.recyclerview.RecyclerActivity" />
+        <activity android:name="com.example.kotlin.ui.recyclerview.RecyclerViewActivity1" />
 
         <activity android:name="com.example.kotlin.jetpack.JetpackActivity" />
         <activity android:name="com.example.kotlin.jetpack.lifecycle.LifeCycleActivity" />

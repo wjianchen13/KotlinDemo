@@ -14,8 +14,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="变量"
-            android:onClick="onVar"
+            android:text="RecyclerView"
+            android:onClick="onRecyclerView"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 

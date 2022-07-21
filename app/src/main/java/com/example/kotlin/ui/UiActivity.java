@@ -1,4 +1,4 @@
-package com.example.kotlin.normal;
+package com.example.kotlin.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,17 +15,21 @@ import com.example.kotlin.normal.obj.ObjActivity;
 import com.example.kotlin.normal.standard.StandardActivity;
 import com.example.kotlin.normal.var1.FunActivity;
 import com.example.kotlin.normal.var1.VarActivity;
+import com.example.kotlin.ui.recyclerview.RecyclerActivity;
 
-public class KotlinActivity extends AppCompatActivity {
+/**
+ * android 界面控件
+ */
+public class UiActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kotlin);
+        setContentView(R.layout.activity_ui);
     }
 
-    public void onVar(View v) {
-        startActivity(new Intent(this, VarActivity.class));
+    public void onRecyclerView(View v) {
+        startActivity(new Intent(this, RecyclerActivity.class));
     }
 
     public void onFun(View v) {

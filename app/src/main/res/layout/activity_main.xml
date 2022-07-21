@@ -21,6 +21,14 @@
             android:textAllCaps="false" />
 
         <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="android 界面控件"
+            android:onClick="onUi"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
             android:id="@+id/btn_jetpack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

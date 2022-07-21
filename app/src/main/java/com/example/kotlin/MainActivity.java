@@ -2,6 +2,7 @@ package com.example.kotlin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.UiAutomation;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,7 @@ import com.example.kotlin.jetpack.viewmodel.ViewModelActivity;
 import com.example.kotlin.jetpack.viewmodel.ViewModelActivity2;
 import com.example.kotlin.normal.KotlinActivity;
 import com.example.kotlin.normal.lambda.LambdaActivity;
+import com.example.kotlin.ui.UiActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, KotlinActivity.class));
     }
 
+    public void onUi(View v) {
+        startActivity(new Intent(this, UiActivity.class));
+    }
 
     public void onJetpack(View v) {
         startActivity(new Intent(this, JetpackActivity.class));
