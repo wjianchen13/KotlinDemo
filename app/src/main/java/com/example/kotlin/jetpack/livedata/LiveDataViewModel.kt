@@ -4,6 +4,9 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class LiveDataViewModel(countReserved: Int) : ViewModel() {
+
+    var user = MutableLiveData<User>()
+
     val counter = MutableLiveData<Int>()
     init {
         counter.value = countReserved
@@ -14,5 +17,10 @@ class LiveDataViewModel(countReserved: Int) : ViewModel() {
     }
     fun clear() {
         counter.value = 0
+    }
+
+    fun change() {
+        var u = User("hello", 18)
+        user.postValue(u)
     }
 }

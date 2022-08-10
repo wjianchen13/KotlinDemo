@@ -1,5 +1,6 @@
 package com.example.kotlin.jetpack.livedata
 
+import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
 
@@ -22,7 +23,10 @@ class LiveDataActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_livedata)
-        viewModel = ViewModelProvider(this).get(LiveDataViewModel::class.java)
+        sp = getPreferences(Context.MODE_PRIVATE)
+        val countReserved = sp.getInt("count_reserved", 0)
+        viewModel = ViewModelProvider(this, LiveDataModelFactory(countReserved))
+                .get(LiveDataViewModel::class.java)
         plusOneBtn.setOnClickListener {
             viewModel.plusOne()
         }
@@ -32,6 +36,21 @@ class LiveDataActivity : AppCompatActivity() {
         viewModel.counter.observe(this, Observer { count ->
             infoText.text = count.toString()
         })
+
+        plusOneBtn.setOnClickListener {
+            viewModel.plusOne()
+        }
+        clearBtn.setOnClickListener {
+            viewModel.clear()
+        }
+
+        viewModel.user.observe(this, Observer<User> { user ->
+            tv_test.text = "name: ${user.name}  age: ${user.age}"
+        })
+
+        tv_test1.setOnClickListener {
+            viewModel.change()
+        }
 
 //        接下来到最关键的地方了，这里调用了viewModel.counter的observe()方法来观察数据的
 //        变化。经过对MainViewModel 的改造，现在counter变量已经变成了一个LiveData对象，任
