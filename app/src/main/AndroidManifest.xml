@@ -37,6 +37,9 @@
         <activity android:name="com.example.kotlin.jetpack.viewmodel.ViewModelActivity2" />
         <activity android:name="com.example.kotlin.jetpack.livedata.LiveDataActivity" />
 
+        <activity android:name="com.example.kotlin.delegate.DelegateActivity" />
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity1" />
+
     </application>
 
 </manifest>

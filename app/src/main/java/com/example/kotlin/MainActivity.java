@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.kotlin.delegate.DelegateActivity;
 import com.example.kotlin.jetpack.JetpackActivity;
 import com.example.kotlin.jetpack.lifecycle.LifeCycleActivity;
 import com.example.kotlin.jetpack.livedata.LiveDataActivity;
@@ -35,9 +36,7 @@ public class MainActivity extends AppCompatActivity {
     public void onJetpack(View v) {
         startActivity(new Intent(this, JetpackActivity.class));
     }
-
-
-
+    
     public void onViewModel2(View v) {
         startActivity(new Intent(this, ViewModelActivity2.class));
     }
@@ -45,4 +44,9 @@ public class MainActivity extends AppCompatActivity {
     public void onLiveData(View v) {
         startActivity(new Intent(this, LiveDataActivity.class));
     }
+
+    public void onDelegate(View v) {
+        startActivity(new Intent(this, DelegateActivity.class));
+    }
+    
 }
