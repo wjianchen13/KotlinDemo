@@ -39,7 +39,16 @@
 
         <activity android:name="com.example.kotlin.delegate.DelegateActivity" />
         <activity android:name="com.example.kotlin.delegate.TestDelegateActivity1" />
-
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity2" />
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity3" />
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity4" />
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity5" />
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity6" />
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity7" />
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity8" />
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity9" />
+        
+        
     </application>
 
 </manifest>

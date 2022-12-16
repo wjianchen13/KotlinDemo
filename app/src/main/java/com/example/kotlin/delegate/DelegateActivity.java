@@ -20,19 +20,37 @@ public class DelegateActivity extends AppCompatActivity {
         startActivity(new Intent(this, TestDelegateActivity1.class));
     }
 
-    public void onUi(View v) {
-
+    public void onDelegateBase2(View v) {
+        startActivity(new Intent(this, TestDelegateActivity2.class));
     }
 
-    public void onJetpack(View v) {
-
+    public void onDelegateBase3(View v) {
+        startActivity(new Intent(this, TestDelegateActivity3.class));
     }
     
-    public void onViewModel2(View v) {
-
+    public void onDelegateBase4(View v) {
+        startActivity(new Intent(this, TestDelegateActivity4.class));
     }
 
-    public void onLiveData(View v) {
-
+    public void onDelegateBase5(View v) {
+        startActivity(new Intent(this, TestDelegateActivity5.class));
     }
+
+    public void onDelegateBase6(View v) {
+        startActivity(new Intent(this, TestDelegateActivity6.class));
+    }
+
+    public void onDelegateBase7(View v) {
+        startActivity(new Intent(this, TestDelegateActivity7.class));
+    }
+
+    public void onDelegateBase8(View v) {
+        startActivity(new Intent(this, TestDelegateActivity8.class));
+    }
+
+    public void onDelegateBase9(View v) {
+        startActivity(new Intent(this, TestDelegateActivity9.class));
+    }
+    
+    
 }
