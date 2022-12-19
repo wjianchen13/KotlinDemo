@@ -47,7 +47,17 @@
         <activity android:name="com.example.kotlin.delegate.TestDelegateActivity7" />
         <activity android:name="com.example.kotlin.delegate.TestDelegateActivity8" />
         <activity android:name="com.example.kotlin.delegate.TestDelegateActivity9" />
-        
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity10" />
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity11" />
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity12" />
+        <activity android:name="com.example.kotlin.delegate.TestDelegateActivity13" />
+
+        <activity android:name="com.example.kotlin.lamda.LamdaActivity" />
+        <activity android:name="com.example.kotlin.lamda.TestLamdaActivity1" />
+        <activity android:name="com.example.kotlin.lamda.TestLamdaActivity2" />
+
+        <activity android:name="com.example.kotlin.higher.HigherActivity" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity1" />
         
     </application>
 

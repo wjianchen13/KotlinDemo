@@ -101,6 +101,42 @@
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
-        </LinearLayout>
+        <Button
+            android:id="@+id/btn_delegate10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="属性委托"
+            android:onClick="onDelegateBase10"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_delegate11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="委托，反射修改属性"
+            android:onClick="onDelegateBase11"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_delegate12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="监听新旧值"
+            android:onClick="onDelegateBase12"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_delegate13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="观察setValue getValue"
+            android:onClick="onDelegateBase13"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+        
+    </LinearLayout>
 
 </ScrollView>

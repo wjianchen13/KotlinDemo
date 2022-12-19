@@ -8,11 +8,13 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.kotlin.delegate.DelegateActivity;
+import com.example.kotlin.higher.HigherActivity;
 import com.example.kotlin.jetpack.JetpackActivity;
 import com.example.kotlin.jetpack.lifecycle.LifeCycleActivity;
 import com.example.kotlin.jetpack.livedata.LiveDataActivity;
 import com.example.kotlin.jetpack.viewmodel.ViewModelActivity;
 import com.example.kotlin.jetpack.viewmodel.ViewModelActivity2;
+import com.example.kotlin.lamda.LamdaActivity;
 import com.example.kotlin.normal.KotlinActivity;
 import com.example.kotlin.normal.lambda.LambdaActivity;
 import com.example.kotlin.ui.UiActivity;
@@ -48,5 +50,12 @@ public class MainActivity extends AppCompatActivity {
     public void onDelegate(View v) {
         startActivity(new Intent(this, DelegateActivity.class));
     }
-    
+
+    public void onLamda(View v) {
+        startActivity(new Intent(this, LamdaActivity.class));
+    }
+
+    public void onHigher(View v) {
+        startActivity(new Intent(this, HigherActivity.class));
+    }
 }

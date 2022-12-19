@@ -64,6 +64,24 @@
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:id="@+id/btn_lamda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lamda 表达式"
+            android:onClick="onLamda"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lamda 高阶函数"
+            android:onClick="onHigher"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
         </LinearLayout>
 
 </ScrollView>

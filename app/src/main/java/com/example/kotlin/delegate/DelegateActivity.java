@@ -52,5 +52,20 @@ public class DelegateActivity extends AppCompatActivity {
         startActivity(new Intent(this, TestDelegateActivity9.class));
     }
     
+    public void onDelegateBase10(View v) {
+        startActivity(new Intent(this, TestDelegateActivity10.class));
+    }
     
+    public void onDelegateBase11(View v) {
+        startActivity(new Intent(this, TestDelegateActivity11.class));
+    }
+
+    public void onDelegateBase12(View v) {
+        startActivity(new Intent(this, TestDelegateActivity12.class));
+    }
+
+    public void onDelegateBase13(View v) {
+        startActivity(new Intent(this, TestDelegateActivity13.class));
+    }
+
 }
