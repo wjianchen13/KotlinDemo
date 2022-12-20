@@ -38,24 +38,6 @@
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_viewmodel2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="ViewModel2"
-            android:onClick="onViewModel2"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_livedata"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="LiveData"
-            android:onClick="onLiveData"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
             android:id="@+id/btn_delegate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -77,7 +59,7 @@
             android:id="@+id/btn_higher"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lamda 高阶函数"
+            android:text="高阶函数"
             android:onClick="onHigher"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />

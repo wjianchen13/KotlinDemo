@@ -31,11 +31,20 @@
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_function"
+            android:id="@+id/btn_higher2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 返回函数的函数"
-            android:onClick="onFunction"
+            android:text="Kotlin 高阶函数2"
+            android:onClick="onHigher2"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 高阶函数2"
+            android:onClick="onHigher3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
         

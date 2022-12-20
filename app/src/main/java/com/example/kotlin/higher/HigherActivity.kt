@@ -28,7 +28,19 @@ class HigherActivity : AppCompatActivity() {
     fun onHigher1(v : View) {
         startActivity(Intent(this, HigherActivity1::class.java))
     }
-    
 
+    /**
+     * 测试
+     */
+    fun onHigher2(v : View) {
+        startActivity(Intent(this, HigherActivity2::class.java))
+    }
+
+    /**
+     * 测试
+     */
+    fun onHigher3(v : View) {
+        startActivity(Intent(this, HigherActivity3::class.java))
+    }
 }
 
