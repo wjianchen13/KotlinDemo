@@ -59,6 +59,8 @@
         <activity android:name="com.example.kotlin.higher.HigherActivity" />
         <activity android:name="com.example.kotlin.higher.HigherActivity1" />
         <activity android:name="com.example.kotlin.higher.HigherActivity2" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity3" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity4" />
         
     </application>
 

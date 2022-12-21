@@ -42,5 +42,13 @@ class HigherActivity : AppCompatActivity() {
     fun onHigher3(v : View) {
         startActivity(Intent(this, HigherActivity3::class.java))
     }
+
+    /**
+     * 高阶函数和扩展函数
+     */
+    fun onHigher4(v : View) {
+        startActivity(Intent(this, HigherActivity4::class.java))
+    }
+
 }
 

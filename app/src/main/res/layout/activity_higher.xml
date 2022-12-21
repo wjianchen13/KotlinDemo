@@ -47,6 +47,15 @@
             android:onClick="onHigher3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 高阶函数和扩展函数"
+            android:onClick="onHigher4"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
         
     </LinearLayout>
 
