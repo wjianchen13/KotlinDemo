@@ -50,5 +50,27 @@ class HigherActivity : AppCompatActivity() {
         startActivity(Intent(this, HigherActivity4::class.java))
     }
 
+    /**
+     * 高阶函数的演化过程
+     */
+    fun onHigher5(v : View) {
+        startActivity(Intent(this, HigherActivity5::class.java))
+    }
+
+    /**
+     * 函数引用类型
+     */
+    fun onHigher6(v : View) {
+        startActivity(Intent(this, HigherActivity6::class.java))
+    }
+
+
+    /**
+     * 模拟android 点击事件
+     */
+    fun onHigher7(v : View) {
+        startActivity(Intent(this, HigherActivity7::class.java))
+    }
+
 }
 

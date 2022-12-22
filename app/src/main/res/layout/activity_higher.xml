@@ -56,6 +56,33 @@
             android:onClick="onHigher4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 高阶函数的演化过程"
+            android:onClick="onHigher5"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 函数引用类型"
+            android:onClick="onHigher6"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 模拟android 点击事件"
+            android:onClick="onHigher7"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
         
     </LinearLayout>
 
