@@ -64,7 +64,17 @@
         <activity android:name="com.example.kotlin.higher.HigherActivity5" />
         <activity android:name="com.example.kotlin.higher.HigherActivity6" />
         <activity android:name="com.example.kotlin.higher.HigherActivity7" />
-        
+        <activity android:name="com.example.kotlin.higher.HigherActivity8" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity9" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity10" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity11" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity12" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity13" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity14" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity15" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity16" />
+
+
     </application>
 
 </manifest>

@@ -83,6 +83,87 @@
             android:onClick="onHigher7"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 模拟RxJava链式调用1"
+            android:onClick="onHigher8"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 模拟RxJava链式调用2"
+            android:onClick="onHigher9"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 模拟RxJava链式调用简化版本"
+            android:onClick="onHigher10"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 模拟RxJava链式调用简化版本"
+            android:onClick="onHigher11"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 模拟RxJava链式调用简化版本"
+            android:onClick="onHigher12"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 实现apply方法"
+            android:onClick="onHigher13"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 函数式编程"
+            android:onClick="onHigher14"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 自定义forEach循环"
+            android:onClick="onHigher15"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin inline内联"
+            android:onClick="onHigher16"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
         
     </LinearLayout>
 

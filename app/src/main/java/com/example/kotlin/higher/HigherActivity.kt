@@ -19,7 +19,7 @@ class HigherActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_higher)
         tvTitle = findViewById(R.id.tv_title)
-        tvTitle?.text = "Kotlin Lamda表达式"
+        tvTitle?.text = "Kotlin 高阶函数"
     }
 
     /**
@@ -64,12 +64,74 @@ class HigherActivity : AppCompatActivity() {
         startActivity(Intent(this, HigherActivity6::class.java))
     }
 
-
     /**
      * 模拟android 点击事件
      */
     fun onHigher7(v : View) {
         startActivity(Intent(this, HigherActivity7::class.java))
+    }
+
+    /**
+     * Kotlin 模拟RxJava链式调用
+     */
+    fun onHigher8(v : View) {
+        startActivity(Intent(this, HigherActivity8::class.java))
+    }
+
+    /**
+     * Kotlin 模拟RxJava链式调用2
+     */
+    fun onHigher9(v : View) {
+        startActivity(Intent(this, HigherActivity9::class.java))
+    }
+
+    /**
+     * Kotlin 模拟RxJava链式调用简化版本
+     */
+    fun onHigher10(v : View) {
+        startActivity(Intent(this, HigherActivity10::class.java))
+    }
+
+    /**
+     * Kotlin 模拟RxJava链式调用简化版本
+     */
+    fun onHigher11(v : View) {
+        startActivity(Intent(this, HigherActivity11::class.java))
+    }
+
+    /**
+     * Kotlin 模拟RxJava链式调用简化版本
+     */
+    fun onHigher12(v : View) {
+        startActivity(Intent(this, HigherActivity12::class.java))
+    }
+
+    /**
+     * Kotlin 实现apply方法
+     */
+    fun onHigher13(v : View) {
+        startActivity(Intent(this, HigherActivity13::class.java))
+    }
+
+    /**
+     * Kotlin 函数式编程
+     */
+    fun onHigher14(v : View) {
+        startActivity(Intent(this, HigherActivity14::class.java))
+    }
+
+    /**
+     * Kotlin 自定义forEach循环
+     */
+    fun onHigher15(v : View) {
+        startActivity(Intent(this, HigherActivity15::class.java))
+    }
+
+    /**
+     * Kotlin inline内联
+     */
+    fun onHigher16(v : View) {
+        startActivity(Intent(this, HigherActivity16::class.java))
     }
 
 }
