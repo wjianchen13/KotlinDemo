@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.kotlin.MainActivity">
+        <activity android:name="com.example.kotlin.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -73,6 +74,15 @@
         <activity android:name="com.example.kotlin.higher.HigherActivity14" />
         <activity android:name="com.example.kotlin.higher.HigherActivity15" />
         <activity android:name="com.example.kotlin.higher.HigherActivity16" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity17" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity18" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity19" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity20" />
+        <activity android:name="com.example.kotlin.higher.HigherActivity21" />
+
+        <activity android:name="com.example.kotlin.dsl.DslActivity" />
+        <activity android:name="com.example.kotlin.dsl.DslActivity1" />
+        <activity android:name="com.example.kotlin.dsl.DslActivity2" />
 
 
     </application>

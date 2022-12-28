@@ -134,5 +134,41 @@ class HigherActivity : AppCompatActivity() {
         startActivity(Intent(this, HigherActivity16::class.java))
     }
 
+    /**
+     * Kotlin 高阶函数总结
+     */
+    fun onHigher17(v : View) {
+        startActivity(Intent(this, HigherActivity17::class.java))
+    }
+
+    /**
+     * Kotlin 手写内置函数let
+     */
+    fun onHigher18(v : View) {
+        startActivity(Intent(this, HigherActivity18::class.java))
+    }
+
+    /**
+     * Kotlin 手写内置函数repeat
+     */
+    fun onHigher19(v : View) {
+        startActivity(Intent(this, HigherActivity19::class.java))
+    }
+
+    /**
+     * Kotlin
+     */
+    fun onHigher20(v : View) {
+        startActivity(Intent(this, HigherActivity20::class.java))
+    }
+
+    /**
+     * Kotlin
+     */
+    fun onHigher21(v : View) {
+        startActivity(Intent(this, HigherActivity21::class.java))
+    }
+
+
 }
 

@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.kotlin.delegate.DelegateActivity;
+import com.example.kotlin.dsl.DslActivity;
 import com.example.kotlin.higher.HigherActivity;
 import com.example.kotlin.jetpack.JetpackActivity;
 import com.example.kotlin.jetpack.lifecycle.LifeCycleActivity;
@@ -50,4 +51,10 @@ public class MainActivity extends AppCompatActivity {
     public void onHigher(View v) {
         startActivity(new Intent(this, HigherActivity.class));
     }
+
+    public void onDsl(View v) {
+        startActivity(new Intent(this, DslActivity.class));
+    }
+
+
 }

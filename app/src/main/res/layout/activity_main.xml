@@ -64,6 +64,15 @@
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:id="@+id/btn_dsl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DSL(领域特定语言)"
+            android:onClick="onDsl"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
         </LinearLayout>
 
 </ScrollView>

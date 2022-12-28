@@ -164,7 +164,52 @@
             android:onClick="onHigher16"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
-        
+
+        <Button
+            android:id="@+id/btn_higher17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 高阶函数总结"
+            android:onClick="onHigher17"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 手写内置函数let"
+            android:onClick="onHigher18"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 手写内置函数repeat"
+            android:onClick="onHigher19"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 手写内置函数takeIf"
+            android:onClick="onHigher20"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_higher21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 手写内置函数thread"
+            android:onClick="onHigher21"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
     </LinearLayout>
 
 </ScrollView>

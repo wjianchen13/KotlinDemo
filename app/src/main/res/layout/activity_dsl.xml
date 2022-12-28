@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin DSL(领域特定语言)"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"  />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin DSL简单例子"
+            android:onClick="onDsl1"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 模拟AndroidManifest.xml的解析"
+            android:onClick="onDsl2"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+</ScrollView>
