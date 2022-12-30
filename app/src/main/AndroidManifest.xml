@@ -83,7 +83,9 @@
         <activity android:name="com.example.kotlin.dsl.DslActivity" />
         <activity android:name="com.example.kotlin.dsl.DslActivity1" />
         <activity android:name="com.example.kotlin.dsl.DslActivity2" />
-
+        <activity android:name="com.example.kotlin.dsl.DslActivity3" />
+        <activity android:name="com.example.kotlin.dsl.DslActivity4" />
+        <activity android:name="com.example.kotlin.dsl.DslHtmlActivity5" />
 
     </application>
 

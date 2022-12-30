@@ -36,6 +36,25 @@ class DslActivity : AppCompatActivity() {
         startActivity(Intent(this, DslActivity2::class.java))
     }
 
+    /**
+     * DSL简单例子泛型实现
+     */
+    fun onDsl3(v : View) {
+        startActivity(Intent(this, DslActivity3::class.java))
+    }
 
+    /**
+     * DSL简单例子泛型实现
+     */
+    fun onDsl4(v : View) {
+        startActivity(Intent(this, DslActivity4::class.java))
+    }
+
+    /**
+     * DSL实现Html语法规则
+     */
+    fun onHtml(v : View) {
+        startActivity(Intent(this, DslHtmlActivity5::class.java))
+    }
 }
 

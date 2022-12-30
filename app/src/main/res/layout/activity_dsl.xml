@@ -37,6 +37,29 @@
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin DSL简单例子泛型实现1"
+            android:onClick="onDsl3"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin DSL简单例子泛型实现2"
+            android:onClick="onDsl4"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin DSL实现Html语法规则"
+            android:onClick="onHtml"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 
