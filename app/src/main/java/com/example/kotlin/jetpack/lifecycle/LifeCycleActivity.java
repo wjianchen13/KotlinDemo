@@ -43,19 +43,19 @@ public class LifeCycleActivity extends AppCompatActivity {
 
         //当Activity执行onResume()方法时，该方法会被自动调用
         @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
-        private  void startGetLocation(){
+        public  void startGetLocation(){
             Log.e("true","onResume"+"被调用了");
         }
 
         //当Activity执行onPause()方法时，该方法会被自动调用
         @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
-        private  void stopGetLocation(){
+        public  void stopGetLocation(){
             Log.e("true","onPause"+"被调用了");
         }
 
         //当Activity执行onDestroy()方法时，该方法会被自动调用
         @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)
-        private  void delGetLocation(){
+        public  void delGetLocation(){
             Log.e("true","onDestroy"+"被调用了");
         }
 

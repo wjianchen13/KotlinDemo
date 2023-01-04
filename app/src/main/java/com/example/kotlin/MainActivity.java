@@ -1,23 +1,18 @@
 package com.example.kotlin;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.UiAutomation;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.kotlin.coroutines.CoroutinesActivity;
 import com.example.kotlin.delegate.DelegateActivity;
 import com.example.kotlin.dsl.DslActivity;
 import com.example.kotlin.higher.HigherActivity;
 import com.example.kotlin.jetpack.JetpackActivity;
-import com.example.kotlin.jetpack.lifecycle.LifeCycleActivity;
-import com.example.kotlin.jetpack.livedata.LiveDataActivity;
-import com.example.kotlin.jetpack.viewmodel.ViewModelActivity;
-import com.example.kotlin.jetpack.viewmodel.ViewModelActivity2;
 import com.example.kotlin.lamda.LamdaActivity;
 import com.example.kotlin.normal.KotlinActivity;
-import com.example.kotlin.normal.lambda.LambdaActivity;
 import com.example.kotlin.ui.UiActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -56,5 +51,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, DslActivity.class));
     }
 
+    public void onCoroutines(View v) {
+        startActivity(new Intent(this, CoroutinesActivity.class));
+    }
 
 }

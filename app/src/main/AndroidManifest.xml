@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kotlin">
 
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -86,6 +89,10 @@
         <activity android:name="com.example.kotlin.dsl.DslActivity3" />
         <activity android:name="com.example.kotlin.dsl.DslActivity4" />
         <activity android:name="com.example.kotlin.dsl.DslHtmlActivity5" />
+
+        <activity android:name="com.example.kotlin.coroutines.CoroutinesActivity" />
+        <activity android:name="com.example.kotlin.coroutines.CoroutinesActivity1" />
+        <activity android:name="com.example.kotlin.coroutines.CoroutinesActivity2" />
 
     </application>
 

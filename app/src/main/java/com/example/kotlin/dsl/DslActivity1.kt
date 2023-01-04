@@ -24,6 +24,11 @@ class DslActivity1 : AppCompatActivity() {
      * 测试
      */
     fun onDelegateBase(v : View) {
+        var test : List<String> = arrayListOf<String>("hello")
+        if (test.isNotEmpty()) {
+
+        }
+
         layout {
             button {
 
