@@ -93,6 +93,11 @@
         <activity android:name="com.example.kotlin.coroutines.CoroutinesActivity" />
         <activity android:name="com.example.kotlin.coroutines.CoroutinesActivity1" />
         <activity android:name="com.example.kotlin.coroutines.CoroutinesActivity2" />
+        <activity android:name="com.example.kotlin.coroutines.CoroutinesActivity3" />
+        <activity android:name="com.example.kotlin.coroutines.CoroutinesActivity4" />
+        <activity android:name="com.example.kotlin.coroutines.jetpack_mvvm_coroutinue.activity.CoroutinesActivity5" />
+        <activity android:name="com.example.kotlin.coroutines.CoroutinesActivity6" />
+
 
     </application>
 

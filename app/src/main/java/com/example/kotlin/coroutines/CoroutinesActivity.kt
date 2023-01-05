@@ -6,7 +6,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
-import com.example.kotlin.higher.HigherActivity1
+import com.example.kotlin.coroutines.jetpack_mvvm_coroutinue.activity.CoroutinesActivity5
 
 /**
  * Kotlin DSL
@@ -37,24 +37,32 @@ class CoroutinesActivity : AppCompatActivity() {
     }
 
     /**
-     * DSL简单例子泛型实现
+     * 模拟多个访问请求串行访问
      */
-    fun onDsl3(v : View) {
-        startActivity(Intent(this, CoroutinesActivity1::class.java))
+    fun onCoroutines3(v : View) {
+        startActivity(Intent(this, CoroutinesActivity3::class.java))
     }
 
     /**
-     * DSL简单例子泛型实现
+     * 模拟多个访问请求串行访问（协程实现）
      */
-    fun onDsl4(v : View) {
-        startActivity(Intent(this, CoroutinesActivity1::class.java))
+    fun onCoroutines4(v : View) {
+        startActivity(Intent(this, CoroutinesActivity4::class.java))
     }
 
     /**
-     * DSL实现Html语法规则
+     * JetPack&MVVM&协程案例实战
      */
-    fun onHtml(v : View) {
-        startActivity(Intent(this, CoroutinesActivity1::class.java))
+    fun onCoroutines5(v : View) {
+        startActivity(Intent(this, CoroutinesActivity5::class.java))
     }
+
+    /**
+     * 协程的挂起与恢复流程
+     */
+    fun onCoroutines6(v : View) {
+        startActivity(Intent(this, CoroutinesActivity6::class.java))
+    }
+
 }
 

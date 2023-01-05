@@ -29,6 +29,11 @@ android {
         targetCompatibility 1.8
     }
 
+    // 添加DataBinding的支持 必须有 kapt
+    dataBinding {
+        enabled =true
+    }
+
 }
 
 dependencies {
