@@ -11,86 +11,105 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btn_kotlin"
+        <TextView
+            android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 基础"
-            android:onClick="onKotlin"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
+            android:text="Kotlin 泛型"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"  />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="android 界面控件"
-            android:onClick="onUi"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_jetpack"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Jetpack"
-            android:onClick="onJetpack"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_delegate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Delegate(委托)"
-            android:onClick="onDelegate"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_lamda"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Lamda 表达式"
-            android:onClick="onLamda"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_higher"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="高阶函数"
-            android:onClick="onHigher"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_dsl"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="DSL(领域特定语言)"
-            android:onClick="onDsl"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_coroutines"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Coroutines(协程)"
-            android:onClick="onCoroutines"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_generic"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="泛型"
+            android:text="Kotlin 泛型"
             android:onClick="onGeneric"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
-        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="泛型协变，逆变和不变"
+            android:onClick="onGeneric2"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 泛型协变和逆变"
+            android:onClick="onGeneric31"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 泛型协变和逆变"
+            android:onClick="onGeneric32"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 生产和消费"
+            android:onClick="onGeneric4"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 生产和消费"
+            android:onClick="onGeneric5"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 泛型限定"
+            android:onClick="onGeneric6"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 注解"
+            android:onClick="onGeneric7"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 反射"
+            android:onClick="onGeneric8"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 生成Html标签"
+            android:onClick="onGeneric9"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 人员管理系统"
+            android:onClick="onGeneric10"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
 
 </ScrollView>

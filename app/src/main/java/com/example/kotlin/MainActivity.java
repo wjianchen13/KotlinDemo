@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.kotlin.coroutines.CoroutinesActivity;
 import com.example.kotlin.delegate.DelegateActivity;
 import com.example.kotlin.dsl.DslActivity;
+import com.example.kotlin.generic.GenericActivity;
 import com.example.kotlin.higher.HigherActivity;
 import com.example.kotlin.jetpack.JetpackActivity;
 import com.example.kotlin.lamda.LamdaActivity;
@@ -53,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void onCoroutines(View v) {
         startActivity(new Intent(this, CoroutinesActivity.class));
+    }
+
+    public void onGeneric(View v) {
+        startActivity(new Intent(this, GenericActivity.class));
     }
 
 }

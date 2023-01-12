@@ -98,6 +98,19 @@
         <activity android:name="com.example.kotlin.coroutines.jetpack_mvvm_coroutinue.activity.CoroutinesActivity5" />
         <activity android:name="com.example.kotlin.coroutines.CoroutinesActivity6" />
 
+        <activity android:name="com.example.kotlin.generic.GenericActivity" />
+        <activity android:name="com.example.kotlin.generic.GenericActivity1" />
+        <activity android:name="com.example.kotlin.generic.GenericActivity2" />
+        <activity android:name="com.example.kotlin.generic.generic3.GenericActivity3" />
+        <activity android:name="com.example.kotlin.generic.generic3.GenericActivity3Kt" />
+        <activity android:name="com.example.kotlin.generic.GenericActivity4" />
+        <activity android:name="com.example.kotlin.generic.GenericActivity5" />
+        <activity android:name="com.example.kotlin.generic.GenericActivity6" />
+        <activity android:name="com.example.kotlin.generic.GenericActivity7" />
+        <activity android:name="com.example.kotlin.generic.GenericActivity8" />
+        <activity android:name="com.example.kotlin.generic.GenericActivity9" />
+        <activity android:name="com.example.kotlin.generic.GenericActivity10" />
+
 
     </application>
 
