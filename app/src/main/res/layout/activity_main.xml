@@ -12,6 +12,15 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/btn_structure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin 架构"
+            android:onClick="onStructure"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
             android:id="@+id/btn_kotlin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -14,6 +14,7 @@ import com.example.kotlin.higher.HigherActivity;
 import com.example.kotlin.jetpack.JetpackActivity;
 import com.example.kotlin.lamda.LamdaActivity;
 import com.example.kotlin.normal.KotlinActivity;
+import com.example.kotlin.structure.StructureActivity;
 import com.example.kotlin.ui.UiActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void onStructure(View v) {
+        startActivity(new Intent(this, StructureActivity.class));
     }
 
     public void onKotlin(View v) {

@@ -112,4 +112,6 @@ class ObjActivity : AppCompatActivity() {
     fun onTest10(v : View) {
         Singleton.singletonTest()
     }
+
+
 }

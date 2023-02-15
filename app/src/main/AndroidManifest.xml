@@ -111,6 +111,7 @@
         <activity android:name="com.example.kotlin.generic.GenericActivity9" />
         <activity android:name="com.example.kotlin.generic.GenericActivity10" />
 
+        <activity android:name="com.example.kotlin.structure.StructureActivity" />
 
     </application>
 
