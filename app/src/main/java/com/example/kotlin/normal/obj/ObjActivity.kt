@@ -1,9 +1,11 @@
 package com.example.kotlin.normal.obj
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
+import com.example.kotlin.normal.obj.obj1.ObjActivity1
 
 class ObjActivity : AppCompatActivity() {
 
@@ -16,10 +18,7 @@ class ObjActivity : AppCompatActivity() {
      * 类的简单定义
      */
     fun onTest1(v : View) {
-        val p = Person()
-        p.name = "Jack"
-        p.age = 19
-        p.eat()
+        startActivity(Intent(this, ObjActivity1::class.java))
     }
 
     /**

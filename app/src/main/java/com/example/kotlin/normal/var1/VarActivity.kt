@@ -20,14 +20,18 @@ class VarActivity : AppCompatActivity() {
      */
     fun onVar(v : View) {
         val a = 10
-        println("a = " + a)
+        println("a = $a")
     }
 
     fun onVar1(v : View) {
         var a: Int = 10
         a = a * 10
-        println("a = " + a)
+        println("a = $a")
 
+        // 如果开始没有指定类型，变量会自动推倒成赋值之后的类型，后面就不能改变类型了
+        var b = "10"
+        b = "str"
+        println("a = $a")
     }
 
 
