@@ -1,4 +1,4 @@
-package com.example.kotlin.normal.obj
+package com.example.kotlin.normal.obj.obj6
 
 open class Person5(val name : String, val age : Int) {
     fun eat() {

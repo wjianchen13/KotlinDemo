@@ -1,4 +1,4 @@
-package com.example.kotlin.normal.obj
+package com.example.kotlin.normal.obj.obj4
 
 /**
  * 注意，我们在Student类的主构造函数中增加name和age这两个字段时，不能再将它们声明成

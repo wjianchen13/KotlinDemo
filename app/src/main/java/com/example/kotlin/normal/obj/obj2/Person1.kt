@@ -1,6 +1,6 @@
-package com.example.kotlin.normal.obj
+package com.example.kotlin.normal.obj.obj2
 
-open class Person2 {
+open class Person1 {
     var name = ""
     var age = 0
     fun eat() {

@@ -26,7 +26,16 @@
         <activity android:name="com.example.kotlin.normal.logic.LogicActivity" />
         <activity android:name="com.example.kotlin.normal.obj.ObjActivity" />
         <activity android:name="com.example.kotlin.normal.obj.obj1.ObjActivity1" />
-
+        <activity android:name="com.example.kotlin.normal.obj.obj2.ObjActivity2" />
+        <activity android:name="com.example.kotlin.normal.obj.obj3.ObjActivity3" />
+        <activity android:name="com.example.kotlin.normal.obj.obj4.ObjActivity4" />
+        <activity android:name="com.example.kotlin.normal.obj.obj5.ObjActivity5" />
+        <activity android:name="com.example.kotlin.normal.obj.obj6.ObjActivity6" />
+        <activity android:name="com.example.kotlin.normal.obj.obj7.ObjActivity7" />
+        <activity android:name="com.example.kotlin.normal.obj.obj8.ObjActivity8" />
+        <activity android:name="com.example.kotlin.normal.obj.obj9.ObjActivity9" />
+        <activity android:name="com.example.kotlin.normal.obj.obj10.ObjActivity10" />
+        <activity android:name="com.example.kotlin.normal.obj.obj11.ObjActivity11" />
 
         <activity android:name="com.example.kotlin.normal.lambda.LambdaActivity" />
         <activity android:name="com.example.kotlin.normal.npe.NpeActivity" />

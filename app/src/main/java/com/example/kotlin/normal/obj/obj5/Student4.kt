@@ -1,4 +1,4 @@
-package com.example.kotlin.normal.obj
+package com.example.kotlin.normal.obj.obj5
 
 /**
  * 你要知道，任何一个类只能有一个主构造函数，但是可以有多个次构造函数。次构造函数也可

@@ -16,6 +16,9 @@ import com.example.kotlin.normal.standard.StandardActivity;
 import com.example.kotlin.normal.var1.FunActivity;
 import com.example.kotlin.normal.var1.VarActivity;
 
+/**
+ * android 第一行代码
+ */
 public class KotlinActivity extends AppCompatActivity {
 
     @Override

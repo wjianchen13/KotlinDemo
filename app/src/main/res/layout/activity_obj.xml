@@ -31,7 +31,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="类继承"
+            android:text="类的继承"
             android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -71,11 +71,37 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="接口"
+            android:text="测试父类和子类的init代码块"
             android:onClick="onTest7"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="val或者var的参数将自动成为该类的字段"
+            android:onClick="onTest8"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="父类次构造函数"
+            android:onClick="onTest9"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试父类和子类的init代码块"
+            android:onClick="onTest7"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+<!--
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -99,6 +125,7 @@
             android:onClick="onTest10"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
+-->
 
     </LinearLayout>
 </ScrollView>
