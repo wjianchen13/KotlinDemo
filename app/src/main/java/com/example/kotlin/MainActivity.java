@@ -63,6 +63,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onGeneric(View v) {
         startActivity(new Intent(this, GenericActivity.class));
+//        TestBean b = null;
+//        Test t = new Test();
+//        t.test1(b);
     }
 
 }
