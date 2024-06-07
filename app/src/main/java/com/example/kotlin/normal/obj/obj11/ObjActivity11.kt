@@ -7,7 +7,7 @@ import com.example.kotlin.R
 import com.example.kotlin.normal.obj.obj7.Student7
 
 /**
- * val或者var的参数将自动成为该类的字段
+ * 接口默认实现
  */
 class ObjActivity11 : AppCompatActivity() {
 
@@ -17,11 +17,16 @@ class ObjActivity11 : AppCompatActivity() {
     }
 
     /**
-     * val或者var的参数将自动成为该类的字段
+     * 接口默认实现
      */
     fun onTest1(v : View) {
-        val p = Student7("1002", 3)
-        println("name:" + p.name  + "  age: " + p.age)
+        val p = Student11("1003", 3)
+        doStudy2(p)
+    }
+
+    private fun doStudy2(study : Study2) {
+        study.readBooks()
+        study.doHomework()
     }
 
 }

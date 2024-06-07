@@ -6,11 +6,12 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
 import com.example.kotlin.normal.obj.obj1.ObjActivity1
+import com.example.kotlin.normal.obj.obj10.ObjActivity10
+import com.example.kotlin.normal.obj.obj11.ObjActivity11
 import com.example.kotlin.normal.obj.obj2.ObjActivity2
 import com.example.kotlin.normal.obj.obj3.ObjActivity3
 import com.example.kotlin.normal.obj.obj4.ObjActivity4
 import com.example.kotlin.normal.obj.obj5.ObjActivity5
-import com.example.kotlin.normal.obj.obj5.Student4
 import com.example.kotlin.normal.obj.obj6.ObjActivity6
 import com.example.kotlin.normal.obj.obj7.ObjActivity7
 import com.example.kotlin.normal.obj.obj8.ObjActivity8
@@ -87,71 +88,36 @@ class ObjActivity : AppCompatActivity() {
         startActivity(Intent(this, ObjActivity9::class.java))
     }
 
+    /**
+     * 接口
+     */
+    fun onTest10(v : View) {
+        startActivity(Intent(this, ObjActivity10::class.java))
+    }
 
-//    /**
-//     * 接口
-//     */
-//    fun onTest7(v : View) {
-////        val p = Student6("1003", 3)
-////        doStudy(p)
-//    }
-//
-//    fun doStudy(study : Study) {
-//        study.readBooks()
-//        study.doHomework()
-//    }
-//
-//    /**
-//     * 接口默认实现
-//     */
-//    fun onTest8(v : View) {
-//        val p = Student7("1003", 3)
-//        doStudy2(p)
-//    }
-//
-//
-//    /**
-//     * 接口
-//     */
-//    fun onTest7(v : View) {
-////        val p = Student6("1003", 3)
-////        doStudy(p)
-//    }
-//
-//    fun doStudy(study : Study) {
-//        study.readBooks()
-//        study.doHomework()
-//    }
-//
-//    /**
-//     * 接口默认实现
-//     */
-//    fun onTest8(v : View) {
-//        val p = Student7("1003", 3)
-//        doStudy2(p)
-//    }
-//
-//    fun doStudy2(study : Study2) {
-//        study.readBooks()
-//        study.doHomework()
-//    }
-//
-//    /**
-//     * 数据类
-//     */
-//    fun onTest9(v : View) {
-//        val cellphone1 = Cellphone("Samsung", 1299.99)
-//        val cellphone2 = Cellphone("Samsung", 1299.99)
-//        println(cellphone1)
-//        println("cellphone1 equals cellphone2 " + (cellphone1 == cellphone2))
-//    }
-//
-//    /**
-//     * 单例类
-//     */
-//    fun onTest10(v : View) {
-//        Singleton.singletonTest()
-//    }
+    /**
+     * 接口默认实现
+     */
+    fun onTest11(v : View) {
+        startActivity(Intent(this, ObjActivity11::class.java))
+    }
+
+    /**
+     * 数据类
+     */
+    fun onTest12(v : View) {
+        val cellphone1 = Cellphone("Samsung", 1299.99)
+        val cellphone2 = Cellphone("Samsung", 1299.99)
+        println(cellphone1)
+        println("cellphone1 equals cellphone2 " + (cellphone1 == cellphone2))
+    }
+
+    /**
+     * 单例类
+     */
+    fun onTest13(v : View) {
+        Singleton.singletonTest()
+    }
 
 
 }

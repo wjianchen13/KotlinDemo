@@ -24,7 +24,7 @@
             android:id="@+id/btn_kotlin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 基础"
+            android:text="Kotlin 第一行代码"
             android:onClick="onKotlin"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />

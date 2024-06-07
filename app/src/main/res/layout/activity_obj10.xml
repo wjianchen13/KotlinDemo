@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="val或者var的参数将自动成为该类的字段"
+            android:text="接口"
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />

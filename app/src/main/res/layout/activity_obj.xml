@@ -92,21 +92,19 @@
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
-
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="测试父类和子类的init代码块"
-            android:onClick="onTest7"
+            android:text="接口"
+            android:onClick="onTest10"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
-<!--
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="接口默认实现"
-            android:onClick="onTest8"
+            android:onClick="onTest11"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
@@ -114,7 +112,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="数据类"
-            android:onClick="onTest9"
+            android:onClick="onTest12"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
@@ -122,10 +120,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="单例类"
-            android:onClick="onTest10"
+            android:onClick="onTest13"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
--->
 
     </LinearLayout>
 </ScrollView>
