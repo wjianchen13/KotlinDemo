@@ -36,6 +36,8 @@
         <activity android:name="com.example.kotlin.normal.obj.obj9.ObjActivity9" />
         <activity android:name="com.example.kotlin.normal.obj.obj10.ObjActivity10" />
         <activity android:name="com.example.kotlin.normal.obj.obj11.ObjActivity11" />
+        <activity android:name="com.example.kotlin.normal.obj.data.DataActivity" />
+        <activity android:name="com.example.kotlin.normal.obj.singleton.SingletonActivity" />
 
         <activity android:name="com.example.kotlin.normal.lambda.LambdaActivity" />
         <activity android:name="com.example.kotlin.normal.npe.NpeActivity" />

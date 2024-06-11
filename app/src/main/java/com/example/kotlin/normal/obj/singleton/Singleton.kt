@@ -1,4 +1,4 @@
-package com.example.kotlin.normal.obj
+package com.example.kotlin.normal.obj.singleton
 
 /**
  * 在Kotlin中创建一个单例类的方式极其简单，只需要将class关键字改成object关键字即可

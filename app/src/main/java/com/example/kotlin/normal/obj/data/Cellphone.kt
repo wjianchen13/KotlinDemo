@@ -1,4 +1,4 @@
-package com.example.kotlin.normal.obj
+package com.example.kotlin.normal.obj.data
 
 /* Java实现
 public class Cellphone {
@@ -24,12 +24,4 @@ public class Cellphone {
     public String toString() {
         return "Cellphone(brand=" + brand + ", price=" + price + ")";
     }
-}*/
-
-/**
- * 当在一个类前
- * 面声明了data关键字时，就表明你希望这个类是一个数据类， Kotlin会根据主构造函数中的参
- * 数帮你将equals()、 hashCode()、 toString()等固定且无实际逻辑意义的方法自动生成，
- * 从而大大减少了开发的工作量
- */
-data class Cellphone(val brand: String, val price: Double)
+}*/data class Cellphone(val brand: String, val price: Double)

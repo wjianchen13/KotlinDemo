@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
+import com.example.kotlin.normal.obj.data.DataActivity
 import com.example.kotlin.normal.obj.obj1.ObjActivity1
 import com.example.kotlin.normal.obj.obj10.ObjActivity10
 import com.example.kotlin.normal.obj.obj11.ObjActivity11
@@ -16,6 +17,8 @@ import com.example.kotlin.normal.obj.obj6.ObjActivity6
 import com.example.kotlin.normal.obj.obj7.ObjActivity7
 import com.example.kotlin.normal.obj.obj8.ObjActivity8
 import com.example.kotlin.normal.obj.obj9.ObjActivity9
+import com.example.kotlin.normal.obj.singleton.Singleton
+import com.example.kotlin.normal.obj.singleton.SingletonActivity
 
 class ObjActivity : AppCompatActivity() {
 
@@ -106,17 +109,14 @@ class ObjActivity : AppCompatActivity() {
      * 数据类
      */
     fun onTest12(v : View) {
-        val cellphone1 = Cellphone("Samsung", 1299.99)
-        val cellphone2 = Cellphone("Samsung", 1299.99)
-        println(cellphone1)
-        println("cellphone1 equals cellphone2 " + (cellphone1 == cellphone2))
+        startActivity(Intent(this, DataActivity::class.java))
     }
 
     /**
      * 单例类
      */
     fun onTest13(v : View) {
-        Singleton.singletonTest()
+        startActivity(Intent(this, SingletonActivity::class.java))
     }
 
 
