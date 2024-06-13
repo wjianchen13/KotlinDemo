@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -11,78 +12,118 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="变量"
-            android:onClick="onVar"
+            android:text="高阶函数"
+            android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="函数"
-            android:onClick="onFun"
+            android:text="高阶函数使用"
+            android:onClick="onTest1"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="逻辑控制"
-            android:onClick="onLogic"
+            android:text="高阶函数使用"
+            android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="类和对象"
-            android:onClick="onObj"
+            android:text="高阶函数使用 lambda表达式"
+            android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lambda表达式"
-            android:onClick="onLambda"
+            android:text="模仿apply函数"
+            android:onClick="onTest4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="空指针检查"
-            android:onClick="onNpe"
+            android:text="内联函数测试"
+            android:onClick="onTest5"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin标准函数和静态方法"
-            android:onClick="onStandard"
+            android:text="lambda表达式局部返回"
+            android:onClick="onTest6"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="延时初始化和密封类"
-            android:onClick="onLate"
+            android:text="内联函数返回"
+            android:onClick="onTest7"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="高阶函数详解"
+            android:text="简化SharedPreferences的用法"
+            android:onClick="onTest8"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="集合map函数"
             android:onClick="onTest9"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
-    </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="集合filter函数"
+            android:onClick="onTest10"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="集合any all函数"
+            android:onClick="onTest11"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin创建匿名内部类"
+            android:onClick="onTest12"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java 函数式API使用 Thread"
+            android:onClick="onTest13"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
 </ScrollView>

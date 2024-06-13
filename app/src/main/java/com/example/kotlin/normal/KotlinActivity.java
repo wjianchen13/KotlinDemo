@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlin.R;
+import com.example.kotlin.normal.high_function.HighFunctionActivity;
 import com.example.kotlin.normal.lambda.LambdaActivity;
 import com.example.kotlin.normal.late.LateActivity;
 import com.example.kotlin.normal.logic.LogicActivity;
@@ -57,6 +58,14 @@ public class KotlinActivity extends AppCompatActivity {
 
     public void onLate(View v) {
         startActivity(new Intent(this, LateActivity.class));
+    }
+
+    /**
+     * 高阶函数详解
+     * @param v
+     */
+    public void onTest9(View v) {
+        startActivity(new Intent(this, HighFunctionActivity.class));
     }
 
 }
