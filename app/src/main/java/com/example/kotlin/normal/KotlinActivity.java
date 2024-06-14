@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlin.R;
+import com.example.kotlin.normal.delegate.DelegateActivity;
 import com.example.kotlin.normal.generic.GenericActivity;
 import com.example.kotlin.normal.high_function.HighFunctionActivity;
 import com.example.kotlin.normal.lambda.LambdaActivity;
@@ -75,6 +76,14 @@ public class KotlinActivity extends AppCompatActivity {
      */
     public void onTest10(View v) {
         startActivity(new Intent(this, GenericActivity.class));
+    }
+
+    /**
+     * 委托
+     * @param v
+     */
+    public void onTest11(View v) {
+        startActivity(new Intent(this, DelegateActivity.class));
     }
 
 }

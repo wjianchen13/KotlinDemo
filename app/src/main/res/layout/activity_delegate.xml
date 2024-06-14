@@ -4,139 +4,126 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 委托"
-            android:textColor="#000000"
-            android:textSize="16sp"
+            android:text="委托"
             android:gravity="center"
-            android:layout_marginTop="10dp"  />
-
-        <Button
-            android:id="@+id/btn_base"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Kotlin 委托基础含义"
-            android:onClick="onDelegateBase"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 委托基础含义2"
-            android:onClick="onDelegateBase2"
+            android:text="类委托"
+            android:onClick="onTest1"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_jetpack"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Kotlin 委托基础含义3"
-            android:onClick="onDelegateBase3"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_viewmodel2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="属性委托"
-            android:onClick="onDelegateBase4"
+            android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_livedata"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="懒加载"
-            android:onClick="onDelegateBase5"
+            android:text="实现一个自定义的Lazy函数"
+            android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_delegate6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="自定义委托"
-            android:onClick="onDelegateBase6"
+            android:text=""
+            android:onClick="onTest4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_delegate7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="provideDelegate"
-            android:onClick="onDelegateBase7"
+            android:text=""
+            android:onClick="onTest5"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_delegate8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="综合应用"
-            android:onClick="onDelegateBase8"
+            android:text=""
+            android:onClick="onTest6"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_delegate9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="控件委托"
-            android:onClick="onDelegateBase9"
+            android:text=""
+            android:onClick="onTest7"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_delegate10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="属性委托"
-            android:onClick="onDelegateBase10"
+            android:text=""
+            android:onClick="onTest8"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_delegate11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="委托，反射修改属性"
-            android:onClick="onDelegateBase11"
+            android:text=""
+            android:onClick="onTest9"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_delegate12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="监听新旧值"
-            android:onClick="onDelegateBase12"
+            android:text=""
+            android:onClick="onTest10"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_delegate13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="观察setValue getValue"
-            android:onClick="onDelegateBase13"
+            android:text=""
+            android:onClick="onTest11"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
-        
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:onClick="onTest12"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:onClick="onTest13"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+
     </LinearLayout>
-
 </ScrollView>
