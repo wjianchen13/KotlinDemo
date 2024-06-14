@@ -4,112 +4,126 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 泛型"
-            android:textColor="#000000"
-            android:textSize="16sp"
+            android:text="泛型"
             android:gravity="center"
-            android:layout_marginTop="10dp"  />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Kotlin 泛型"
-            android:onClick="onGeneric"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="泛型协变，逆变和不变"
-            android:onClick="onGeneric2"
+            android:text="泛型类"
+            android:onClick="onTest1"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 泛型协变和逆变"
-            android:onClick="onGeneric31"
+            android:text="泛型方法"
+            android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 泛型协变和逆变"
-            android:onClick="onGeneric32"
+            android:text="泛型指定上界"
+            android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 生产和消费"
-            android:onClick="onGeneric4"
+            android:text="实现apply函数一样功能"
+            android:onClick="onTest4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 生产和消费"
-            android:onClick="onGeneric5"
+            android:text=""
+            android:onClick="onTest5"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 泛型限定"
-            android:onClick="onGeneric6"
+            android:text=""
+            android:onClick="onTest6"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 注解"
-            android:onClick="onGeneric7"
+            android:text=""
+            android:onClick="onTest7"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 反射"
-            android:onClick="onGeneric8"
+            android:text=""
+            android:onClick="onTest8"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 生成Html标签"
-            android:onClick="onGeneric9"
+            android:text=""
+            android:onClick="onTest9"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 人员管理系统"
-            android:onClick="onGeneric10"
+            android:text=""
+            android:onClick="onTest10"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:onClick="onTest11"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:onClick="onTest12"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:onClick="onTest13"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
 
     </LinearLayout>
-
 </ScrollView>

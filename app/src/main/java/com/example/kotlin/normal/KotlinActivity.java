@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlin.R;
+import com.example.kotlin.normal.generic.GenericActivity;
 import com.example.kotlin.normal.high_function.HighFunctionActivity;
 import com.example.kotlin.normal.lambda.LambdaActivity;
 import com.example.kotlin.normal.late.LateActivity;
@@ -66,6 +67,14 @@ public class KotlinActivity extends AppCompatActivity {
      */
     public void onTest9(View v) {
         startActivity(new Intent(this, HighFunctionActivity.class));
+    }
+
+    /**
+     * 泛型
+     * @param v
+     */
+    public void onTest10(View v) {
+        startActivity(new Intent(this, GenericActivity.class));
     }
 
 }

@@ -39,7 +39,6 @@
         <activity android:name="com.example.kotlin.normal.obj.data.DataActivity" />
         <activity android:name="com.example.kotlin.normal.obj.singleton.SingletonActivity" />
 
-
         <activity android:name="com.example.kotlin.normal.lambda.LambdaActivity" />
         <activity android:name="com.example.kotlin.normal.npe.NpeActivity" />
         <activity android:name="com.example.kotlin.normal.standard.StandardActivity" />
@@ -47,6 +46,12 @@
         <activity android:name="com.example.kotlin.normal.late.LateActivity" />
 
         <activity android:name="com.example.kotlin.normal.high_function.HighFunctionActivity" />
+
+        <activity android:name="com.example.kotlin.normal.generic.GenericActivity" />
+        <activity android:name="com.example.kotlin.normal.generic.test1.GenericActivity1" />
+        <activity android:name="com.example.kotlin.normal.generic.test2.GenericActivity2" />
+        <activity android:name="com.example.kotlin.normal.generic.test3.GenericActivity3" />
+        <activity android:name="com.example.kotlin.normal.generic.test4.GenericActivity4" />
 
         <activity android:name="com.example.kotlin.ui.UiActivity" />
         <activity android:name="com.example.kotlin.ui.recyclerview.RecyclerActivity" />
