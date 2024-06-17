@@ -52,10 +52,15 @@
         <activity android:name="com.example.kotlin.normal.generic.test2.GenericActivity2" />
         <activity android:name="com.example.kotlin.normal.generic.test3.GenericActivity3" />
         <activity android:name="com.example.kotlin.normal.generic.test4.GenericActivity4" />
+        <activity android:name="com.example.kotlin.normal.generic.test5.GenericActivity5" />
+
+
+
         <activity android:name="com.example.kotlin.normal.delegate.DelegateActivity" />
         <activity android:name="com.example.kotlin.normal.delegate.test1.DelegateActivity1" />
         <activity android:name="com.example.kotlin.normal.delegate.test2.DelegateActivity2" />
         <activity android:name="com.example.kotlin.normal.delegate.test3.DelegateActivity3" />
+        <activity android:name="com.example.kotlin.normal.infix.InfixActivity" />
 
         <activity android:name="com.example.kotlin.ui.UiActivity" />
         <activity android:name="com.example.kotlin.ui.recyclerview.RecyclerActivity" />

@@ -10,6 +10,7 @@ import com.example.kotlin.R;
 import com.example.kotlin.normal.delegate.DelegateActivity;
 import com.example.kotlin.normal.generic.GenericActivity;
 import com.example.kotlin.normal.high_function.HighFunctionActivity;
+import com.example.kotlin.normal.infix.InfixActivity;
 import com.example.kotlin.normal.lambda.LambdaActivity;
 import com.example.kotlin.normal.late.LateActivity;
 import com.example.kotlin.normal.logic.LogicActivity;
@@ -84,6 +85,14 @@ public class KotlinActivity extends AppCompatActivity {
      */
     public void onTest11(View v) {
         startActivity(new Intent(this, DelegateActivity.class));
+    }
+
+    /**
+     * 中缀函数
+     * @param v
+     */
+    public void onTest12(View v) {
+        startActivity(new Intent(this, InfixActivity.class));
     }
 
 }

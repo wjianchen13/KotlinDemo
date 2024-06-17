@@ -9,6 +9,7 @@ import com.example.kotlin.normal.generic.test1.GenericActivity1
 import com.example.kotlin.normal.generic.test2.GenericActivity2
 import com.example.kotlin.normal.generic.test3.GenericActivity3
 import com.example.kotlin.normal.generic.test4.GenericActivity4
+import com.example.kotlin.normal.generic.test5.GenericActivity5
 import com.example.kotlin.normal.obj.obj11.ObjActivity11
 
 /**
@@ -50,10 +51,10 @@ class GenericActivity : AppCompatActivity() {
     }
 
     /**
-     *
+     * 泛型实化
      */
     fun onTest5(v : View) {
-
+        startActivity(Intent(this, GenericActivity5::class.java))
     }
 
     /**

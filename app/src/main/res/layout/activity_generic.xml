@@ -55,7 +55,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="泛型实化"
             android:onClick="onTest5"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />

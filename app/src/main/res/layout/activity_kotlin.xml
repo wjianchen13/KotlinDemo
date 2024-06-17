@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:text="变量"
             android:onClick="onVar"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
         <Button
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:text="函数"
             android:onClick="onFun"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
         <Button
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:text="逻辑控制"
             android:onClick="onLogic"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
         <Button
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:text="类和对象"
             android:onClick="onObj"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
         <Button
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:text="Lambda表达式"
             android:onClick="onLambda"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
         <Button
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:text="空指针检查"
             android:onClick="onNpe"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
         <Button
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:text="Kotlin标准函数和静态方法"
             android:onClick="onStandard"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
         <Button
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:text="延时初始化和密封类"
             android:onClick="onLate"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
         <Button
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:text="高阶函数详解"
             android:onClick="onTest9"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
         <Button
@@ -88,7 +88,7 @@
             android:layout_height="wrap_content"
             android:text="泛型"
             android:onClick="onTest10"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
         <Button
@@ -96,9 +96,16 @@
             android:layout_height="wrap_content"
             android:text="委托"
             android:onClick="onTest11"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="中缀函数"
+            android:onClick="onTest12"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 
