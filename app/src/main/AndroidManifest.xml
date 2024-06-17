@@ -55,7 +55,9 @@
         <activity android:name="com.example.kotlin.normal.generic.test5.GenericActivity5" />
         <activity android:name="com.example.kotlin.normal.generic.test6.GenericActivity6" />
         <activity android:name="com.example.kotlin.normal.generic.test7.GenericActivity7" />
-
+        <activity android:name="com.example.kotlin.normal.generic.test8.GenericActivity8" />
+        <activity android:name="com.example.kotlin.normal.generic.test8.java.view.TestMvpActivity" />
+        <activity android:name="com.example.kotlin.normal.generic.test8.kotlin.view.TestMvpActivity" />
 
         <activity android:name="com.example.kotlin.normal.delegate.DelegateActivity" />
         <activity android:name="com.example.kotlin.normal.delegate.test1.DelegateActivity1" />
