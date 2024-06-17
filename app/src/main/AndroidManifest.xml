@@ -53,7 +53,8 @@
         <activity android:name="com.example.kotlin.normal.generic.test3.GenericActivity3" />
         <activity android:name="com.example.kotlin.normal.generic.test4.GenericActivity4" />
         <activity android:name="com.example.kotlin.normal.generic.test5.GenericActivity5" />
-
+        <activity android:name="com.example.kotlin.normal.generic.test6.GenericActivity6" />
+        <activity android:name="com.example.kotlin.normal.generic.test7.GenericActivity7" />
 
 
         <activity android:name="com.example.kotlin.normal.delegate.DelegateActivity" />

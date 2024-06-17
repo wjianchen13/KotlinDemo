@@ -10,10 +10,19 @@ import com.example.kotlin.normal.generic.test2.GenericActivity2
 import com.example.kotlin.normal.generic.test3.GenericActivity3
 import com.example.kotlin.normal.generic.test4.GenericActivity4
 import com.example.kotlin.normal.generic.test5.GenericActivity5
+import com.example.kotlin.normal.generic.test6.GenericActivity6
+import com.example.kotlin.normal.generic.test7.GenericActivity7
 import com.example.kotlin.normal.obj.obj11.ObjActivity11
 
 /**
  * 泛型
+ *
+ * 【码上开学】Kotlin 的泛型(1)，2024年最新kotlin极简教程
+ * https://blog.csdn.net/2401_84103386/article/details/137576098
+ *
+ *
+ *
+ *
  */
 class GenericActivity : AppCompatActivity() {
 
@@ -58,17 +67,17 @@ class GenericActivity : AppCompatActivity() {
     }
 
     /**
-     *
+     * 泛型协变
      */
     fun onTest6(v : View) {
-
+        startActivity(Intent(this, GenericActivity6::class.java))
     }
 
     /**
-     *
+     * 泛型逆变
      */
     fun onTest7(v : View) {
-
+        startActivity(Intent(this, GenericActivity7::class.java))
     }
 
     /**
