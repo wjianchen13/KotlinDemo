@@ -64,6 +64,12 @@
         <activity android:name="com.example.kotlin.first.delegate.test2.DelegateActivity2" />
         <activity android:name="com.example.kotlin.first.delegate.test3.DelegateActivity3" />
         <activity android:name="com.example.kotlin.first.infix.InfixActivity" />
+        <activity android:name="com.example.kotlin.first.coroutines.CoroutinesActivity" />
+        <activity android:name="com.example.kotlin.first.coroutines.test1.CoroutinesFirstActivity1" />
+        <activity android:name="com.example.kotlin.first.coroutines.test2.CoroutinesFirstActivity2" />
+        <activity android:name="com.example.kotlin.first.coroutines.test3.CoroutinesFirstActivity3" />
+        <activity android:name="com.example.kotlin.first.coroutines.test4.CoroutinesFirstActivity4" />
+        <activity android:name="com.example.kotlin.first.coroutines.test5.CoroutinesFirstActivity5" />
 
         <activity android:name="com.example.kotlin.xiangxue.XiangxueActivity" />
 
@@ -148,6 +154,9 @@
         <activity android:name="com.example.kotlin.xiangxue.generic.GenericActivity10" />
 
         <activity android:name="com.example.kotlin.xiangxue.structure.StructureActivity" />
+
+        <activity android:name="com.example.kotlin.practice.PracticeActivity" />
+        <activity android:name="com.example.kotlin.practice.test1.PracticeActivity1" />
 
     </application>
 

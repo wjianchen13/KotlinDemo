@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlin.R;
+import com.example.kotlin.first.coroutines.CoroutinesActivity;
 import com.example.kotlin.first.delegate.DelegateActivity;
 import com.example.kotlin.first.generic.GenericActivity;
 import com.example.kotlin.first.high_function.HighFunctionActivity;
@@ -95,4 +96,11 @@ public class KotlinActivity extends AppCompatActivity {
         startActivity(new Intent(this, InfixActivity.class));
     }
 
+    /**
+     *  Kotlin 协程
+     * @param v
+     */
+    public void onTest13(View v) {
+        startActivity(new Intent(this, CoroutinesActivity.class));
+    }
 }

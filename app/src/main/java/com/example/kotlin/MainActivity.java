@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlin.first.KotlinActivity;
+import com.example.kotlin.practice.PracticeActivity;
 import com.example.kotlin.xiangxue.XiangxueActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,8 +30,17 @@ public class MainActivity extends AppCompatActivity {
      * 享学课堂教程
      * @param v
      */
-    public void onTest3(View v) {
+    public void onTest2(View v) {
         startActivity(new Intent(this, XiangxueActivity.class));
     }
+
+    /**
+     * Kotlin实践
+     * @param v
+     */
+    public void onTest3(View v) {
+        startActivity(new Intent(this, PracticeActivity.class));
+    }
+
 
 }
