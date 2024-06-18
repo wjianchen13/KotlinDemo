@@ -12,15 +12,6 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btn_structure"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Kotlin 架构"
-            android:onClick="onStructure"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
             android:id="@+id/btn_kotlin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,71 +23,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="android 界面控件"
-            android:onClick="onUi"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_jetpack"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Jetpack"
-            android:onClick="onJetpack"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_delegate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Delegate(委托)"
-            android:onClick="onDelegate"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_lamda"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Lamda 表达式"
-            android:onClick="onLamda"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_higher"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="高阶函数"
-            android:onClick="onHigher"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_dsl"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="DSL(领域特定语言)"
-            android:onClick="onDsl"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_coroutines"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Coroutines(协程)"
-            android:onClick="onCoroutines"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:id="@+id/btn_generic"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="泛型"
-            android:onClick="onGeneric"
+            android:text="享学课堂教程"
+            android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
