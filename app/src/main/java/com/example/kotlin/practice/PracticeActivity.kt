@@ -7,14 +7,13 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
 import com.example.kotlin.first.obj.obj1.ObjActivity1
 import com.example.kotlin.practice.test1.PracticeActivity1
+import com.example.kotlin.practice.test2.PracticeActivity2
+import com.example.kotlin.practice.test3.PracticeActivity3
+import com.example.kotlin.practice.test4.PracticeActivity4
 import com.example.kotlin.xiangxue.delegate.Simple04
 
 /**
  * Kotlin实践
- *
- * 从原理对比分析，Kotlin中单例模式的5种实现方式
- * https://blog.csdn.net/chuyouyinghe/article/details/136368806
- *
  */
 class PracticeActivity : AppCompatActivity() {
 
@@ -31,24 +30,24 @@ class PracticeActivity : AppCompatActivity() {
     }
 
     /**
-     *
+     * 静态方法
      */
     fun onTest2(v : View) {
-
+        startActivity(Intent(this, PracticeActivity2::class.java))
     }
 
     /**
-     *
+     * 线程
      */
     fun onTest3(v : View) {
-
+        startActivity(Intent(this, PracticeActivity3::class.java))
     }
 
     /**
-     *
+     * 单例模式
      */
     fun onTest4(v : View) {
-
+        startActivity(Intent(this, PracticeActivity4::class.java))
     }
 
 

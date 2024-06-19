@@ -157,6 +157,9 @@
 
         <activity android:name="com.example.kotlin.practice.PracticeActivity" />
         <activity android:name="com.example.kotlin.practice.test1.PracticeActivity1" />
+        <activity android:name="com.example.kotlin.practice.test2.PracticeActivity2" />
+        <activity android:name="com.example.kotlin.practice.test3.PracticeActivity3" />
+        <activity android:name="com.example.kotlin.practice.test4.PracticeActivity4" />
 
     </application>
 
