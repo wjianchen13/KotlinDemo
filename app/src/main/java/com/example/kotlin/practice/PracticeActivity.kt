@@ -5,12 +5,13 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
-import com.example.kotlin.first.obj.obj1.ObjActivity1
 import com.example.kotlin.practice.test1.PracticeActivity1
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
-import com.example.kotlin.xiangxue.delegate.Simple04
+import com.example.kotlin.practice.test5.PracticeActivity5
+import com.example.kotlin.practice.test6.PracticeActivity6
+import com.example.kotlin.practice.test7.PracticeActivity7
 
 /**
  * Kotlin实践
@@ -50,27 +51,25 @@ class PracticeActivity : AppCompatActivity() {
         startActivity(Intent(this, PracticeActivity4::class.java))
     }
 
-
     /**
-     *
+     * 线程同步
      */
     fun onTest5(v : View) {
-
+        startActivity(Intent(this, PracticeActivity5::class.java))
     }
 
-
     /**
-     *
+     * Java子类访问Kotlin父类成员
      */
     fun onTest6(v : View) {
-
+        startActivity(Intent(this, PracticeActivity6::class.java))
     }
 
     /**
-     *
+     * 泛型测试，通配符使用
      */
     fun onTest7(v : View) {
-
+        startActivity(Intent(this, PracticeActivity7::class.java))
     }
 
     /**
@@ -79,7 +78,6 @@ class PracticeActivity : AppCompatActivity() {
     fun onTest8(v : View) {
 
     }
-
 
     /**
      *
@@ -94,5 +92,8 @@ class PracticeActivity : AppCompatActivity() {
     fun onTest10(v : View) {
 
     }
+
+
+
 
 }

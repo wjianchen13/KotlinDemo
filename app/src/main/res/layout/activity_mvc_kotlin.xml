@@ -4,26 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btn_kotlin"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 第一行代码"
-            android:onClick="onKotlin"
+            android:text="框架"
+            android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="享学课堂教程"
+            android:text="启动java activity"
+            android:onClick="onTest1"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="启动kotlin activity"
             android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -31,19 +39,10 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin实践"
+            android:text="泛型逆变 原因"
             android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="框架"
-            android:onClick="onTest4"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        </LinearLayout>
-
+    </LinearLayout>
 </ScrollView>

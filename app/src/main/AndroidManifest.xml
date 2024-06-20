@@ -55,9 +55,14 @@
         <activity android:name="com.example.kotlin.first.generic.test5.GenericActivity5" />
         <activity android:name="com.example.kotlin.first.generic.test6.GenericActivity6" />
         <activity android:name="com.example.kotlin.first.generic.test7.GenericActivity7" />
-        <activity android:name="com.example.kotlin.first.generic.test8.GenericActivity8" />
-        <activity android:name="com.example.kotlin.first.generic.test8.java.view.TestMvpActivity" />
-        <activity android:name="com.example.kotlin.first.generic.test8.kotlin.view.TestMvpActivity" />
+        <activity android:name="com.example.kotlin.mvc.MvcActivity" />
+
+
+        <activity android:name="com.example.kotlin.mvc.java.MvcJavaActivity" />
+        <activity android:name="com.example.kotlin.mvc.java.test_activity.view.TestMvpActivity" />
+        <activity android:name="com.example.kotlin.mvc.java.test_fragment.view.TestFragmentActivity1" />
+        <activity android:name="com.example.kotlin.mvc.java.test_multi_fragment.view.TestMultiPartyFragmentActivity" />
+        <activity android:name="com.example.kotlin.mvc.java.test_multi_activity.view.TestMultiPartyActivity" />
 
         <activity android:name="com.example.kotlin.first.delegate.DelegateActivity" />
         <activity android:name="com.example.kotlin.first.delegate.test1.DelegateActivity1" />
@@ -160,6 +165,10 @@
         <activity android:name="com.example.kotlin.practice.test2.PracticeActivity2" />
         <activity android:name="com.example.kotlin.practice.test3.PracticeActivity3" />
         <activity android:name="com.example.kotlin.practice.test4.PracticeActivity4" />
+        <activity android:name="com.example.kotlin.practice.test5.PracticeActivity5" />
+        <activity android:name="com.example.kotlin.practice.test6.PracticeActivity6" />
+        <activity android:name="com.example.kotlin.practice.test7.PracticeActivity7" />
+
 
     </application>
 

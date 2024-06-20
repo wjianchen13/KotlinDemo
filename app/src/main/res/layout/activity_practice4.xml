@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="相关实践测试 重要，和项目的一一对应"
+            android:text="线程同步"
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -21,7 +21,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="kotlin的getter和setter方法"
+            android:text=""
             android:onClick="onTest1"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />

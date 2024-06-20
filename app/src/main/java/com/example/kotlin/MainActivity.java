@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlin.first.KotlinActivity;
+import com.example.kotlin.mvc.MvcActivity;
 import com.example.kotlin.practice.PracticeActivity;
 import com.example.kotlin.xiangxue.XiangxueActivity;
 
@@ -42,5 +43,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, PracticeActivity.class));
     }
 
+    /**
+     * 框架
+     * @param v
+     */
+    public void onTest4(View v) {
+        startActivity(new Intent(this, MvcActivity.class));
+    }
 
 }

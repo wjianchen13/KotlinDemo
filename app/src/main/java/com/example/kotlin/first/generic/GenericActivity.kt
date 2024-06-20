@@ -12,7 +12,7 @@ import com.example.kotlin.first.generic.test4.GenericActivity4
 import com.example.kotlin.first.generic.test5.GenericActivity5
 import com.example.kotlin.first.generic.test6.GenericActivity6
 import com.example.kotlin.first.generic.test7.GenericActivity7
-import com.example.kotlin.first.generic.test8.GenericActivity8
+import com.example.kotlin.mvc.MvcActivity
 
 /**
  * 泛型
@@ -84,7 +84,7 @@ class GenericActivity : AppCompatActivity() {
      * 测试Java的extends和super
      */
     fun onTest8(v : View) {
-        startActivity(Intent(this, GenericActivity8::class.java))
+        startActivity(Intent(this, MvcActivity::class.java))
     }
 
     /**
