@@ -1,11 +1,11 @@
-package com.example.kotlin.mvc.kotlin.view
+package com.example.kotlin.mvc.kotlin2.view
 
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import com.example.kotlin.R
-import com.example.kotlin.mvc.kotlin.presenter.TestMvpActivityPresenter
-import com.example.kotlin.mvc.kotlin.utils.Utils.i
+import com.example.kotlin.mvc.kotlin2.presenter.TestMvpActivityPresenter
+import com.example.kotlin.mvc.kotlin2.utils.Utils.i
 
 /**
  * 测试Java的extends和super 转kotlin

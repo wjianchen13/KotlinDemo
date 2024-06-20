@@ -1,4 +1,4 @@
-package com.example.kotlin.mvc.kotlin.utils
+package com.example.kotlin.mvc.kotlin2.utils
 
 import android.util.Log
 

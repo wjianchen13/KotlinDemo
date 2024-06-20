@@ -5,7 +5,10 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
-import com.example.kotlin.mvc.kotlin.view.TestMvpActivity
+import com.example.kotlin.mvc.kotlin.test_activity.view.TestMvpActivity
+import com.example.kotlin.mvc.kotlin.test_fragment.view.TestFragmentActivity1
+import com.example.kotlin.mvc.kotlin.test_multi_activity.view.TestMultiPartyActivity
+import com.example.kotlin.mvc.kotlin.test_multi_fragment.view.TestMultiPartyFragmentActivity
 
 /**
  * 框架
@@ -18,25 +21,35 @@ class MvcKotlinActivity : AppCompatActivity() {
     }
 
     /**
-     * 启动java activity
+     * 测试Activity
+     * @param v
      */
-    fun onTest1(v : View) {
-        startActivity(Intent(this, com.example.kotlin.mvc.java.test_activity.view.TestMvpActivity::class.java))
-    }
-
-    /**
-     * 启动kotlin activity
-     */
-    fun onTest2(v : View) {
+    fun onTest1(v: View?) {
         startActivity(Intent(this, TestMvpActivity::class.java))
     }
 
     /**
-     * 泛型逆变 原因
-     * 为什么逆变的时候泛型T不能出现在out 位置上
+     * 测试Fragment
+     * @param v
      */
-    fun onTest3(v : View) {
+    fun onTest2(v: View?) {
+        startActivity(Intent(this, TestFragmentActivity1::class.java))
+    }
 
+    /**
+     * 测试Fragment
+     * @param v
+     */
+    fun onTest3(v: View?) {
+        startActivity(Intent(this, TestMultiPartyFragmentActivity::class.java))
+    }
+
+    /**
+     * 测试多部分 Activity
+     * @param v
+     */
+    fun onTest4(v: View?) {
+        startActivity(Intent(this, TestMultiPartyActivity::class.java))
     }
 
 }

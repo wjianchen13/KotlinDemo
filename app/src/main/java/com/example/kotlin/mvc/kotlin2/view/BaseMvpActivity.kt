@@ -1,10 +1,10 @@
-package com.example.kotlin.mvc.kotlin.view
+package com.example.kotlin.mvc.kotlin2.view
 
 import android.content.Context
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.kotlin.mvc.kotlin.presenter.BaseMvpPresenter
+import com.example.kotlin.mvc.kotlin2.presenter.BaseMvpPresenter
 
 abstract class BaseMvpActivity<V : IBaseMvpView?, P : BaseMvpPresenter<V>?> : AppCompatActivity(),
     IBaseMvpView {

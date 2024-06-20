@@ -1,7 +1,7 @@
-package com.example.kotlin.mvc.kotlin.presenter
+package com.example.kotlin.mvc.kotlin2.presenter
 
-import com.example.kotlin.mvc.kotlin.view.ITestMvpActivityView
-import com.example.kotlin.mvc.kotlin.view.TestMvpActivity
+import com.example.kotlin.mvc.kotlin2.view.ITestMvpActivityView
+import com.example.kotlin.mvc.kotlin2.view.TestMvpActivity
 
 class TestMvpActivityPresenter(view: TestMvpActivity) : BaseMvpPresenter<ITestMvpActivityView?>(view) {
 

@@ -1,10 +1,10 @@
-package com.example.kotlin.mvc.kotlin.presenter
+package com.example.kotlin.mvc.kotlin2.presenter
 
 import android.content.Context
 import android.os.Bundle
 import android.view.View
-import com.example.kotlin.mvc.kotlin.utils.Utils
-import com.example.kotlin.mvc.kotlin.view.IBaseMvpView
+import com.example.kotlin.mvc.kotlin2.utils.Utils
+import com.example.kotlin.mvc.kotlin2.view.IBaseMvpView
 
 open class BaseMvpPresenter<V : IBaseMvpView?>(view: V) {
     var view: V?

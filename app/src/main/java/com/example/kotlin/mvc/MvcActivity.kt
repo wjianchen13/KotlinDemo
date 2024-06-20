@@ -6,7 +6,8 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
 import com.example.kotlin.mvc.java.MvcJavaActivity
-import com.example.kotlin.mvc.kotlin.view.TestMvpActivity
+import com.example.kotlin.mvc.kotlin.MvcKotlinActivity
+import com.example.kotlin.mvc.kotlin2.view.TestMvpActivity
 
 /**
  * 框架
@@ -29,7 +30,7 @@ class MvcActivity : AppCompatActivity() {
      * Kotlin方式
      */
     fun onTest2(v : View) {
-        startActivity(Intent(this, TestMvpActivity::class.java))
+        startActivity(Intent(this, MvcKotlinActivity::class.java))
     }
 
 }
