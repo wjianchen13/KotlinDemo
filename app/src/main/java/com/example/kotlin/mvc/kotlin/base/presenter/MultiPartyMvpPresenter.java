@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * Fragment多个部分独立公共Presenter
  */
-public class MultiPartyMvpPresenter<V extends IBaseMvpView> extends BaseMultiPartMvpPresenter<V> {
+public class MultiPartyMvpPresenter<V extends IBaseMvpView, P extends BaseMvpPresenter> extends BaseMultiPartMvpPresenter<V, P> {
 
     private static final String TAG = MultiPartyMvpPresenter.class.getSimpleName();
 

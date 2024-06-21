@@ -6,7 +6,7 @@ import com.example.kotlin.mvc.kotlin.test_multi_activity.presenter.ActivityPart2
 import com.example.kotlin.mvc.kotlin.test_multi_activity.presenter.ActivityPart3Presenter;
 import com.example.kotlin.mvc.kotlin.test_multi_activity.view.ITestMultiPartMvpActivityView;
 
-public class TestMultiPartMvpActivityPresenter extends MultiPartyMvpPresenter<ITestMultiPartMvpActivityView> {
+public class TestMultiPartMvpActivityPresenter extends MultiPartyMvpPresenter<ITestMultiPartMvpActivityView, TestMultiPartMvpActivityPresenter> {
 
     private ActivityPart1Presenter mPart1Presenter;
     private ActivityPart2Presenter mPart2Presenter;

@@ -22,7 +22,7 @@ import java.util.List;
  * @param <V>
  * @param <P>
  */
-public abstract class BaseMultiPartMvpFragment<V extends IBaseMultiPartMvpView, P extends MultiPartyMvpPresenter<V>>
+public abstract class BaseMultiPartMvpFragment<V extends IBaseMultiPartMvpView, P extends MultiPartyMvpPresenter<V, ?>>
         extends BaseMvpFragment<V, P> implements IBaseMultiPartMvpView, IBaseTargetView {
 
     public static final String TAG = BaseMultiPartMvpFragment.class.getSimpleName();

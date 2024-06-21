@@ -17,7 +17,7 @@ import com.example.kotlin.mvc.java.base.view.IBaseTargetView;
  * 模块公共父类
  *
  */
-public abstract class BaseModule<V extends IBaseTargetView, P extends BaseMultiPartMvpPresenter> extends LazyLoader implements IBaseMvpView, View.OnClickListener {
+public abstract class BaseModule<V extends IBaseTargetView, P extends BaseMultiPartMvpPresenter<?, ?>> extends LazyLoader implements IBaseMvpView, View.OnClickListener {
 
     protected Context mContext;
     protected V mTarget;

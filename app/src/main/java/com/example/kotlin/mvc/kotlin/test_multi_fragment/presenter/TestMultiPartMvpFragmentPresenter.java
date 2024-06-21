@@ -7,7 +7,7 @@ import com.example.kotlin.mvc.kotlin.test_multi_fragment.presenter.FragmentPart2
 import com.example.kotlin.mvc.kotlin.test_multi_fragment.presenter.FragmentPart3Presenter;
 import com.example.kotlin.mvc.kotlin.test_multi_fragment.view.ITestMultiPartMvpFragmentView;
 
-public class TestMultiPartMvpFragmentPresenter extends MultiPartyMvpPresenter<ITestMultiPartMvpFragmentView> {
+public class TestMultiPartMvpFragmentPresenter extends MultiPartyMvpPresenter<ITestMultiPartMvpFragmentView, TestMultiPartMvpFragmentPresenter> {
 
     private FragmentPart1Presenter mPart1Presenter;
     private FragmentPart2Presenter mPart2Presenter;

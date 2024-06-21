@@ -3,7 +3,7 @@ package com.example.kotlin.mvc.kotlin.test_multi_activity.presenter;
 import com.example.kotlin.mvc.kotlin.base.presenter.BaseMultiPartMvpPresenter;
 import com.example.kotlin.mvc.kotlin.test_multi_fragment.view.IPart2View;
 
-public class ActivityPart2Presenter extends BaseMultiPartMvpPresenter<IPart2View> {
+public class ActivityPart2Presenter extends BaseMultiPartMvpPresenter<IPart2View, ActivityPart2Presenter> {
 
     public ActivityPart2Presenter(IPart2View view) {
         super(view);
