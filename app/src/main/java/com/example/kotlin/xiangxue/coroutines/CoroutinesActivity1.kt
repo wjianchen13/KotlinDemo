@@ -13,20 +13,18 @@ import com.derry.kt_coroutines.use.api.WanAndroidAPI
 import com.derry.kt_coroutines.use.entity.LoginRegisterResponse2
 import com.derry.kt_coroutines.use.entity.LoginRegisterResponseWrapper2
 import com.example.kotlin.R
-import kotlinx.android.synthetic.main.activity_coroutines1.*
 
 /**
  * Kotlin 传统方式完成异步任务网络加载
  */
 class CoroutinesActivity1 : AppCompatActivity() {
 
-    private var tvTitle : TextView? = null
+    private var textView : TextView? = null
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_coroutines1)
-        tvTitle = findViewById(R.id.tv_title)
-        tvTitle?.text = "Kotlin 传统方式完成异步任务网络加载"
+        textView = findViewById(R.id.textView)
     }
 
     // TODO 第二大步骤：主线程 更新UI（注意：本次所有代码 是Kotlin的简写，如果是Java代码量更多）
@@ -35,7 +33,7 @@ class CoroutinesActivity1 : AppCompatActivity() {
 
         val result =  it.obj as LoginRegisterResponseWrapper2<LoginRegisterResponse2>
         Log.d(TAG, "errorMsg: ${result.data}")
-        textView.text = result.data.toString() // 更新控件 UI
+        textView?.text = result.data.toString() // 更新控件 UI
 
         mProgressDialog?.dismiss() // 隐藏加载框
 

@@ -4,11 +4,11 @@ import android.app.ProgressDialog
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.derry.kt_coroutines.use.api.APIClient
 import com.derry.kt_coroutines.use.api.WanAndroidAPI
 import com.example.kotlin.R
-import kotlinx.android.synthetic.main.activity_coroutines1.*
 import kotlinx.coroutines.*
 
 /**
@@ -23,13 +23,18 @@ class CoroutinesActivity2 : AppCompatActivity(), CoroutineScope by MainScope()  
     // ViewModelScope 你不需要关心取消，他自动绑定ViewModel生命周期了
     // val main = MainScope()
 
+    private var tvTitle : TextView? = null
+    private var textView : TextView? = null
+
     private val TAG = "Derry"
     var mProgressDialog: ProgressDialog? = null
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_coroutines1)
+        tvTitle = findViewById(R.id.tvTitle)
         tvTitle?.text = "Kotlin 协程方式完成异步任务网络加载"
+        textView = findViewById(R.id.textView)
     }
 
     /**
@@ -51,7 +56,7 @@ class CoroutinesActivity2 : AppCompatActivity(), CoroutineScope by MainScope()  
 
             // 更新UI 因为这个括号里面是主线程，当然可以更新UI
             Log.d(TAG, "errorMsg: ${result.data}")
-            textView.text = result.data.toString() // 更新控件 UI
+            textView?.text = result.data.toString() // 更新控件 UI
 
             mProgressDialog?.dismiss() // 隐藏加载框
         }

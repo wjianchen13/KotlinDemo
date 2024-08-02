@@ -7,9 +7,9 @@ import android.os.Handler
 import android.os.Looper
 import android.os.Message
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
-import kotlinx.android.synthetic.main.activity_coroutines1.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope
 
@@ -18,12 +18,17 @@ import kotlinx.coroutines.MainScope
  */
 class CoroutinesActivity3 : AppCompatActivity(), CoroutineScope by MainScope()  {
 
+    private var tvTitle : TextView? = null
+    private var textView : TextView? = null
+
     private val TAG = "Derry"
     var mProgressDialog: ProgressDialog? = null
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_coroutines1)
+        tvTitle = findViewById(R.id.tvTitle)
+        textView = findViewById(R.id.textView)
         tvTitle?.text = "模拟多个访问请求串行访问"
     }
 
@@ -43,8 +48,8 @@ class CoroutinesActivity3 : AppCompatActivity(), CoroutineScope by MainScope()  
                 val handler = object: Handler(Looper.getMainLooper()) {
                     override fun handleMessage(msg: Message) {
                         super.handleMessage(msg)
-                        textView.text = serverResponseInfo // 更新UI
-                        textView.setTextColor(Color.GREEN) // 更新UI
+                        textView?.text = serverResponseInfo // 更新UI
+                        textView?.setTextColor(Color.GREEN) // 更新UI
 
                         // TODO 再执行 异步请求2  【请求加载[用户资产数据]】
                         requestLoadUserAssets(object: ResponseCallback {
@@ -54,8 +59,8 @@ class CoroutinesActivity3 : AppCompatActivity(), CoroutineScope by MainScope()  
                                 val handler = object: Handler(Looper.getMainLooper()) {
                                     override fun handleMessage(msg: Message) {
                                         super.handleMessage(msg)
-                                        textView.text = serverResponseInfo // 更新UI
-                                        textView.setTextColor(Color.BLUE) // 更新UI
+                                        textView?.text = serverResponseInfo // 更新UI
+                                        textView?.setTextColor(Color.BLUE) // 更新UI
 
                                         // TODO 再再执行 异步请求3  【求加载[用户资产详情数据]】
                                         requestLoadUserAssetsDetails(object : ResponseCallback{
@@ -64,8 +69,8 @@ class CoroutinesActivity3 : AppCompatActivity(), CoroutineScope by MainScope()  
                                                 val handler = object: Handler(Looper.getMainLooper()) {
                                                     override fun handleMessage(msg: Message) {
                                                         super.handleMessage(msg)
-                                                        textView.text = serverResponseInfo // 更新UI
-                                                        textView.setTextColor(Color.RED) // 更新UI
+                                                        textView?.text = serverResponseInfo // 更新UI
+                                                        textView?.setTextColor(Color.RED) // 更新UI
                                                         mProgressDialog?.dismiss() // 更新UI 隐藏加载框
 
                                                         // TODO 省略更多代码 ...

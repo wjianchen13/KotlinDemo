@@ -1,12 +1,11 @@
 package com.example.kotlin.xiangxue.structure
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
 import com.example.kotlin.R
 import com.example.kotlin.xiangxue.structure.viewmodels.MainViewModel
-import kotlinx.android.synthetic.main.activity_structure.*
-import kotlinx.android.synthetic.main.activity_viewmodel.infoText
-import kotlinx.android.synthetic.main.activity_viewmodel.plusOneBtn
 
 /**
  * ViewModel 的生命周期是长于Activity
@@ -15,9 +14,20 @@ import kotlinx.android.synthetic.main.activity_viewmodel.plusOneBtn
  */
 class StructureActivity : BaseActivity() {
 
+    private lateinit var plusOneBtn : Button
+    private lateinit var infoText : TextView
+    private lateinit var tv_test1 : TextView
+    private lateinit var btn_test1 : TextView
+    private lateinit var btn_test2 : TextView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_structure)
+        plusOneBtn = findViewById(R.id.plusOneBtn)
+        infoText = findViewById(R.id.infoText)
+        tv_test1 = findViewById(R.id.tv_test1)
+        btn_test1 = findViewById(R.id.btn_test1)
+        btn_test2 = findViewById(R.id.btn_test2)
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         plusOneBtn.setOnClickListener {
             viewModel.counter++

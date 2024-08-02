@@ -4,9 +4,9 @@ import android.app.ProgressDialog
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
-import kotlinx.android.synthetic.main.activity_coroutines1.*
 import kotlinx.coroutines.*
 
 /**
@@ -14,12 +14,17 @@ import kotlinx.coroutines.*
  */
 class CoroutinesActivity4 : AppCompatActivity(), CoroutineScope by MainScope()  {
 
+
+    private var tvTitle : TextView? = null
+    private var textView : TextView? = null
     private val TAG = "Derry"
     var mProgressDialog: ProgressDialog? = null
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_coroutines1)
+        tvTitle = findViewById(R.id.tvTitle)
+        textView = findViewById(R.id.textView)
         tvTitle?.text = "模拟多个访问请求串行访问（协程实现）"
     }
 
@@ -36,8 +41,8 @@ class CoroutinesActivity4 : AppCompatActivity(), CoroutineScope by MainScope()  
         GlobalScope.launch(Dispatchers.Main) {
             // TODO 先执行 异步请求1
             var serverResponseInfo = requestLoadUser()
-            textView.text = serverResponseInfo // 更新UI
-            textView.setTextColor(Color.GREEN) // 更新UI
+            textView?.text = serverResponseInfo // 更新UI
+            textView?.setTextColor(Color.GREEN) // 更新UI
 
             // TODO 更新UI完成后，再去执行 异步请求2
             serverResponseInfo = requestLoadUserAssets()
