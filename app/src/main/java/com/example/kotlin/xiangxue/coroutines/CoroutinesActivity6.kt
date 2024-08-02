@@ -4,9 +4,9 @@ import android.app.ProgressDialog
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
-import kotlinx.android.synthetic.main.activity_coroutines1.*
 import kotlinx.coroutines.*
 
 /**
@@ -14,12 +14,18 @@ import kotlinx.coroutines.*
  */
 class CoroutinesActivity6 : AppCompatActivity(), CoroutineScope by MainScope()  {
 
+    private var tvTitle : TextView? = null
+    private var textView : TextView? = null
+
+
     private val TAG = "Derry"
     var mProgressDialog: ProgressDialog? = null
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_coroutines1)
+        tvTitle = findViewById(R.id.tvTitle)
+        textView = findViewById(R.id.textView)
         tvTitle?.text = "协程的挂起与恢复流程"
     }
 

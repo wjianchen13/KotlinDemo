@@ -1,23 +1,24 @@
 package com.example.kotlin.xiangxue.ui.recyclerview;
 
-import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-
-import com.example.kotlin.R;
-import kotlinx.android.synthetic.main.activity_recyclerview1.*
+import androidx.recyclerview.widget.RecyclerView
+import com.example.kotlin.R
 
 /**
  * recyclerview
  */
 class RecyclerViewActivity1 : AppCompatActivity() {
 
+    private lateinit var recyclerView : RecyclerView
+
     private val fruitList = ArrayList<Fruit>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recyclerview1)
+        recyclerView = findViewById(R.id.recyclerView)
         initFruits() // 初始化水果数据
         val layoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = layoutManager

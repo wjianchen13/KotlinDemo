@@ -8,7 +8,7 @@ class MainViewModel : ViewModel() {
 
     var data = MutableLiveData<EventData>()
 
-    var mViewModels = mutableListOf<BaseViewModel>()
+    private var mViewModels : MutableList<BaseViewModel> = mutableListOf<BaseViewModel>()
 
     var counter = 0
 
@@ -23,8 +23,10 @@ class MainViewModel : ViewModel() {
 
     override fun onCleared() {
         super.onCleared()
-        for(i in mViewModels?.indices) {
-            mViewModels[i]?.onClear()
+        if(mViewModels != null) {
+            for (i in mViewModels.indices) {
+                mViewModels[i]?.onClear()
+            }
         }
     }
 }
