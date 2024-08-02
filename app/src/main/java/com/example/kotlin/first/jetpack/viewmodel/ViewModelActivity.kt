@@ -1,4 +1,4 @@
-package com.example.kotlin.xiangxue.jetpack.viewmodel
+package com.example.kotlin.first.jetpack.viewmodel
 
 import android.os.Bundle
 import android.widget.Button

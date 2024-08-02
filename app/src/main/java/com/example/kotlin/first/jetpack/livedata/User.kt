@@ -1,4 +1,4 @@
-package com.example.kotlin.xiangxue.jetpack.livedata
+package com.example.kotlin.first.jetpack.livedata
 
 class User(n : String, a : Int) {
 

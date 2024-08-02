@@ -12,7 +12,6 @@ import com.example.kotlin.xiangxue.delegate.DelegateActivity;
 import com.example.kotlin.xiangxue.dsl.DslActivity;
 import com.example.kotlin.xiangxue.generic.GenericActivity;
 import com.example.kotlin.xiangxue.higher.HigherActivity;
-import com.example.kotlin.xiangxue.jetpack.JetpackActivity;
 import com.example.kotlin.xiangxue.lamda.LamdaActivity;
 import com.example.kotlin.xiangxue.structure.StructureActivity;
 import com.example.kotlin.xiangxue.ui.UiActivity;
@@ -35,10 +34,6 @@ public class XiangxueActivity extends AppCompatActivity {
 
     public void onUi(View v) {
         startActivity(new Intent(this, UiActivity.class));
-    }
-
-    public void onJetpack(View v) {
-        startActivity(new Intent(this, JetpackActivity.class));
     }
 
     public void onDelegate(View v) {

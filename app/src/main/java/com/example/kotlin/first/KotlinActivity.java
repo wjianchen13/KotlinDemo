@@ -20,6 +20,7 @@ import com.example.kotlin.first.obj.ObjActivity;
 import com.example.kotlin.first.standard.StandardActivity;
 import com.example.kotlin.first.var1.FunActivity;
 import com.example.kotlin.first.var1.VarActivity;
+import com.example.kotlin.first.jetpack.JetpackActivity;
 
 /**
  * android 第一行代码
@@ -103,4 +104,13 @@ public class KotlinActivity extends AppCompatActivity {
     public void onTest13(View v) {
         startActivity(new Intent(this, CoroutinesActivity.class));
     }
+
+    /**
+     * Jetpack
+     * @param v
+     */
+    public void onTest14(View v) {
+        startActivity(new Intent(this, JetpackActivity.class));
+    }
+
 }

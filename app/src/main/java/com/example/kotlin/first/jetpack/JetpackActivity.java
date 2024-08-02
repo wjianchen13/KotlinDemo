@@ -1,4 +1,4 @@
-package com.example.kotlin.xiangxue.jetpack;
+package com.example.kotlin.first.jetpack;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,10 +7,10 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlin.R;
-import com.example.kotlin.xiangxue.jetpack.lifecycle.LifeCycleActivity;
-import com.example.kotlin.xiangxue.jetpack.livedata.LiveDataActivity;
-import com.example.kotlin.xiangxue.jetpack.viewmodel.ViewModelActivity;
-import com.example.kotlin.xiangxue.jetpack.viewmodel.ViewModelActivity2;
+import com.example.kotlin.first.jetpack.lifecycle.LifeCycleActivity;
+import com.example.kotlin.first.jetpack.livedata.LiveDataActivity;
+import com.example.kotlin.first.jetpack.viewmodel.ViewModelActivity;
+import com.example.kotlin.first.jetpack.viewmodel.ViewModelActivity2;
 
 public class JetpackActivity extends AppCompatActivity {
 
