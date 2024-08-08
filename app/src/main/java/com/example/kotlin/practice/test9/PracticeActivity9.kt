@@ -24,6 +24,7 @@ import java.util.concurrent.locks.ReentrantLock
 /**
  * Kotin注解
  * @JvmDefault
+ * @JvmDefaultWithCompatibility
  */
 class PracticeActivity9 : AppCompatActivity() {
 
@@ -36,12 +37,12 @@ class PracticeActivity9 : AppCompatActivity() {
      * @JvmDefault
      */
     fun onTest1(v : View) {
-
-
+        var callBack : ICallBack =  CallBackImpl()
+        callBack.showToast()
     }
 
     /**
-     * Synchronized
+     * @JvmDefaultWithCompatibility
      */
     fun onTest2(v : View) {
 
