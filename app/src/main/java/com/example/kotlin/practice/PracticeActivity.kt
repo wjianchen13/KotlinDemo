@@ -12,6 +12,7 @@ import com.example.kotlin.practice.test4.PracticeActivity4
 import com.example.kotlin.practice.test5.PracticeActivity5
 import com.example.kotlin.practice.test6.PracticeActivity6
 import com.example.kotlin.practice.test7.PracticeActivity7
+import com.example.kotlin.practice.test9.PracticeActivity9
 
 /**
  * Kotlin实践
@@ -80,10 +81,10 @@ class PracticeActivity : AppCompatActivity() {
     }
 
     /**
-     *
+     * Kotlin注解
      */
     fun onTest9(v : View) {
-
+        startActivity(Intent(this, PracticeActivity9::class.java))
     }
 
     /**

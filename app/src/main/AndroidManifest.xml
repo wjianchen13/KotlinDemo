@@ -168,6 +168,7 @@
         <activity android:name="com.example.kotlin.practice.test5.PracticeActivity5" />
         <activity android:name="com.example.kotlin.practice.test6.PracticeActivity6" />
         <activity android:name="com.example.kotlin.practice.test7.PracticeActivity7" />
+        <activity android:name="com.example.kotlin.practice.test9.PracticeActivity9" />
 
         <activity android:name="com.example.kotlin.mvc.kotlin.MvcKotlinActivity" />
         <activity android:name="com.example.kotlin.mvc.kotlin.test_activity.view.TestMvpActivity" />

@@ -34,6 +34,11 @@ android {
         enabled =true
     }
 
+    kotlinOptions {
+
+        freeCompilerArgs = ['-jvm-target=1.8','-Xjvm-default=all']
+    }
+
 }
 
 dependencies {
