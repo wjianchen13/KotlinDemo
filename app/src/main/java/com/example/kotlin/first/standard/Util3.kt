@@ -14,7 +14,7 @@ class Util3 {
     companion object {
         @JvmStatic
         fun doAction2() {
-            println("do action2")
+            println("do action2  ")
         }
     }
 }
