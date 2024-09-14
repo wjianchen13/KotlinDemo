@@ -9,6 +9,7 @@ import com.example.kotlin.first.obj.data.DataActivity
 import com.example.kotlin.first.obj.obj1.ObjActivity1
 import com.example.kotlin.first.obj.obj10.ObjActivity10
 import com.example.kotlin.first.obj.obj11.ObjActivity11
+import com.example.kotlin.first.obj.obj12.ObjActivity12
 import com.example.kotlin.first.obj.obj2.ObjActivity2
 import com.example.kotlin.first.obj.obj3.ObjActivity3
 import com.example.kotlin.first.obj.obj4.ObjActivity4
@@ -116,6 +117,13 @@ class ObjActivity : AppCompatActivity() {
      */
     fun onTest13(v : View) {
         startActivity(Intent(this, SingletonActivity::class.java))
+    }
+
+    /**
+     * 没有主构造函数的情况
+     */
+    fun onTest14(v : View) {
+        startActivity(Intent(this, ObjActivity12::class.java))
     }
 
 

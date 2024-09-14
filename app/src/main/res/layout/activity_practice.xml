@@ -98,6 +98,24 @@
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:id="@+id/btn_test10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试java接口实现default"
+            android:onClick="onTest10"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_test11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="let、run、with、apply和also"
+            android:onClick="onTest11"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
         </LinearLayout>
 
 </ScrollView>

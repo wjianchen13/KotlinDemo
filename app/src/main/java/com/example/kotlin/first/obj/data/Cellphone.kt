@@ -18,10 +18,11 @@ public class Cellphone {
     }
     @Override
     public int hashCode() {
-        第 2 章 探究新语言，快速入门 Kotlin 编程 82return brand.hashCode() + (int) price;
+        return brand.hashCode() + (int) price;
     }
     @Override
     public String toString() {
         return "Cellphone(brand=" + brand + ", price=" + price + ")";
     }
-}*/data class Cellphone(val brand: String, val price: Double)
+}*/
+data class Cellphone(val brand: String, val price: Double)

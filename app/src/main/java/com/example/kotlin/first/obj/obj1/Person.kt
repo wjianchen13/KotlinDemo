@@ -7,3 +7,8 @@ class Person {
         println(name + " is eating. He is " + age + " years old.")
     }
 }
+
+/**
+ * 如果一个类没有类体,可以省略花括号
+ */
+class Student

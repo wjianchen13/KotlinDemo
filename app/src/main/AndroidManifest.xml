@@ -39,6 +39,7 @@
         <activity android:name="com.example.kotlin.first.obj.obj11.ObjActivity11" />
         <activity android:name="com.example.kotlin.first.obj.data.DataActivity" />
         <activity android:name="com.example.kotlin.first.obj.singleton.SingletonActivity" />
+        <activity android:name="com.example.kotlin.first.obj.obj12.ObjActivity12" />
 
         <activity android:name="com.example.kotlin.first.lambda.LambdaActivity" />
         <activity android:name="com.example.kotlin.first.npe.NpeActivity" />
@@ -169,8 +170,10 @@
         <activity android:name="com.example.kotlin.practice.test5.PracticeActivity5" />
         <activity android:name="com.example.kotlin.practice.test6.PracticeActivity6" />
         <activity android:name="com.example.kotlin.practice.test7.PracticeActivity7" />
+        <activity android:name="com.example.kotlin.practice.test8.PracticeActivity8" />
         <activity android:name="com.example.kotlin.practice.test9.PracticeActivity9" />
         <activity android:name="com.example.kotlin.practice.test10.PracticeActivity10J" />
+        <activity android:name="com.example.kotlin.practice.test11.PracticeActivity11" />
 
         <activity android:name="com.example.kotlin.mvc.kotlin.MvcKotlinActivity" />
         <activity android:name="com.example.kotlin.mvc.kotlin.test_activity.view.TestMvpActivity" />

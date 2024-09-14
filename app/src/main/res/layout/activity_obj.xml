@@ -124,5 +124,13 @@
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="没有主构造函数的情况"
+            android:onClick="onTest14"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
     </LinearLayout>
 </ScrollView>

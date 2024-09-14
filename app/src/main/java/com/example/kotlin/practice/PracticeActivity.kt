@@ -7,12 +7,14 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
 import com.example.kotlin.practice.test1.PracticeActivity1
 import com.example.kotlin.practice.test10.PracticeActivity10J
+import com.example.kotlin.practice.test11.PracticeActivity11
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
 import com.example.kotlin.practice.test5.PracticeActivity5
 import com.example.kotlin.practice.test6.PracticeActivity6
 import com.example.kotlin.practice.test7.PracticeActivity7
+import com.example.kotlin.practice.test8.PracticeActivity8
 import com.example.kotlin.practice.test9.PracticeActivity9
 
 /**
@@ -75,10 +77,10 @@ class PracticeActivity : AppCompatActivity() {
     }
 
     /**
-     * 函数默认参数
+     * 泛型测试，通配符使用
      */
     fun onTest8(v : View) {
-
+        startActivity(Intent(this, PracticeActivity8::class.java))
     }
 
     /**
@@ -89,12 +91,18 @@ class PracticeActivity : AppCompatActivity() {
     }
 
     /**
-     *
+     * 测试java接口实现default
      */
     fun onTest10(v : View) {
         startActivity(Intent(this, PracticeActivity10J::class.java))
     }
 
+    /**
+     * let、run、with、apply和also
+     */
+    fun onTest11(v : View) {
+        startActivity(Intent(this, PracticeActivity11::class.java))
+    }
 
 
 
