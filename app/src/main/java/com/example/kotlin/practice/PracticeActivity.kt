@@ -6,6 +6,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
 import com.example.kotlin.practice.test1.PracticeActivity1
+import com.example.kotlin.practice.test10.PracticeActivity10J
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
@@ -91,7 +92,7 @@ class PracticeActivity : AppCompatActivity() {
      *
      */
     fun onTest10(v : View) {
-
+        startActivity(Intent(this, PracticeActivity10J::class.java))
     }
 
 
