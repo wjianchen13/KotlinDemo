@@ -8,6 +8,7 @@ import com.example.kotlin.R
 import com.example.kotlin.practice.test1.PracticeActivity1
 import com.example.kotlin.practice.test10.PracticeActivity10J
 import com.example.kotlin.practice.test11.PracticeActivity11
+import com.example.kotlin.practice.test12.PracticeActivity12
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
@@ -104,6 +105,11 @@ class PracticeActivity : AppCompatActivity() {
         startActivity(Intent(this, PracticeActivity11::class.java))
     }
 
-
+    /**
+     * Kotlin和Java相互调用
+     */
+    fun onTest12(v : View) {
+        startActivity(Intent(this, PracticeActivity12::class.java))
+    }
 
 }
