@@ -5,6 +5,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
 import com.example.kotlin.practice.test12.test1.TestListener
+import com.example.kotlin.practice.test12.test2.Test2ListenerK
 
 /**
  * Kotlin和Java相互调用
@@ -32,10 +33,13 @@ class PracticeActivity12 : AppCompatActivity() {
     }
 
     /**
-     * run
+     * Kotlin继承Java接口
+     * 如果java接口的参数是基本类型，例如int double，那么kotlin继承下来就不能为空，因为基本类型不能为空
+     * 如果java接口参数是报装类型，例如Integer，kotlin继承下来可以为空，也可以不为空
+     * 参考Test2ListenerK类
      */
     fun onTest2(v : View) {
-
+        val test = Test2ListenerK()
     }
 
     /**

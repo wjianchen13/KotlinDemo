@@ -29,7 +29,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="run"
+            android:text="Kotlin继承Java接口会变成不可空类型"
             android:onClick="onTest2"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
