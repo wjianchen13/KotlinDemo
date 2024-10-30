@@ -10,6 +10,7 @@ import com.example.kotlin.practice.test10.PracticeActivity10J
 import com.example.kotlin.practice.test11.PracticeActivity11
 import com.example.kotlin.practice.test12.PracticeActivity12
 import com.example.kotlin.practice.test13.PracticeActivity13
+import com.example.kotlin.practice.test14.PracticeActivity14
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
@@ -119,4 +120,12 @@ class PracticeActivity : AppCompatActivity() {
     fun onTest13(v : View) {
         startActivity(Intent(this, PracticeActivity13::class.java))
     }
+
+    /**
+     * Java activity 继承Kotlin 父类Activity 父类Activity重写了接口方法，但是在子类缺提示没有覆写方法的问题
+     */
+    fun onTest14(v : View) {
+        startActivity(Intent(this, PracticeActivity14::class.java))
+    }
+
 }

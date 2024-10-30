@@ -135,6 +135,15 @@
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:id="@+id/btn_test14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java activity 继承Kotlin 父类Activity 父类Activity重写了接口方法，但是在子类缺提示没有覆写方法的问题"
+            android:onClick="onTest14"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
         </LinearLayout>
 
 </ScrollView>
