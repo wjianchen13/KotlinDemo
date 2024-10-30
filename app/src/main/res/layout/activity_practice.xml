@@ -116,6 +116,25 @@
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:id="@+id/btn_test12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin和Java相互调用"
+            android:onClick="onTest12"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/btn_test13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin静态方法@JvmStatic 和 @JvmOverloads一起使用，导致找不到方法的问题"
+            android:onClick="onTest13"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
         </LinearLayout>
 
 </ScrollView>

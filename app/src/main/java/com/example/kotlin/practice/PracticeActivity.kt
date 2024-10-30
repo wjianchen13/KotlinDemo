@@ -9,6 +9,7 @@ import com.example.kotlin.practice.test1.PracticeActivity1
 import com.example.kotlin.practice.test10.PracticeActivity10J
 import com.example.kotlin.practice.test11.PracticeActivity11
 import com.example.kotlin.practice.test12.PracticeActivity12
+import com.example.kotlin.practice.test13.PracticeActivity13
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
@@ -112,4 +113,10 @@ class PracticeActivity : AppCompatActivity() {
         startActivity(Intent(this, PracticeActivity12::class.java))
     }
 
+    /**
+     * Kotlin静态方法@JvmStatic 和 @JvmOverloads一起使用，导致找不到方法的问题
+     */
+    fun onTest13(v : View) {
+        startActivity(Intent(this, PracticeActivity13::class.java))
+    }
 }
