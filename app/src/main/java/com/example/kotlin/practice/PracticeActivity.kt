@@ -11,6 +11,7 @@ import com.example.kotlin.practice.test11.PracticeActivity11
 import com.example.kotlin.practice.test12.PracticeActivity12
 import com.example.kotlin.practice.test13.PracticeActivity13
 import com.example.kotlin.practice.test14.PracticeActivity14
+import com.example.kotlin.practice.test15.PracticeActivity15
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
@@ -126,6 +127,13 @@ class PracticeActivity : AppCompatActivity() {
      */
     fun onTest14(v : View) {
         startActivity(Intent(this, PracticeActivity14::class.java))
+    }
+
+    /**
+     * Kotlin访问Java代码的属性，当Java同时拥有getXXX和setXXX方法时，Kotlin可以直接通过XXX访问属性，包括属性读写
+     */
+    fun onTest15(v : View) {
+        startActivity(Intent(this, PracticeActivity15::class.java))
     }
 
 }

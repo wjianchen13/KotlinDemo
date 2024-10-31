@@ -144,6 +144,15 @@
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:id="@+id/btn_test15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin访问Java代码的属性，当Java同时拥有getXXX和setXXX方法时，Kotlin可以直接通过XXX访问属性，包括属性读写"
+            android:onClick="onTest15"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
         </LinearLayout>
 
 </ScrollView>
