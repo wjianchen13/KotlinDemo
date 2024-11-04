@@ -12,6 +12,7 @@ import com.example.kotlin.practice.test12.PracticeActivity12
 import com.example.kotlin.practice.test13.PracticeActivity13
 import com.example.kotlin.practice.test14.PracticeActivity14
 import com.example.kotlin.practice.test15.PracticeActivity15
+import com.example.kotlin.practice.test16.PracticeActivity16
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
@@ -134,6 +135,13 @@ class PracticeActivity : AppCompatActivity() {
      */
     fun onTest15(v : View) {
         startActivity(Intent(this, PracticeActivity15::class.java))
+    }
+
+    /**
+     * 测试Kotlin接口属性获取不会调用括号内容的问题
+     */
+    fun onTest16(v : View) {
+        startActivity(Intent(this, PracticeActivity16::class.java))
     }
 
 }
