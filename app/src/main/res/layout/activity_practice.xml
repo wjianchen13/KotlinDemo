@@ -162,6 +162,17 @@
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:id="@+id/btn_test17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标签"
+            android:onClick="onTest17"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+
+
 
 
         </LinearLayout>
