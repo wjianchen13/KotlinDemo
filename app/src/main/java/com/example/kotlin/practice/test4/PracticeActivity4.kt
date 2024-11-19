@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
-import com.example.kotlin.xiangxue.delegate.Simple04
 
 /**
  * 单例模式
@@ -22,13 +21,36 @@ class PracticeActivity4 : AppCompatActivity() {
      *
      */
     fun onTest1(v : View) {
-        SingletonTest.getInstance().test()
+        SingletonTest3.getInstance().test()
+
     }
 
     /**
      *
      */
     fun onTest2(v : View) {
+
+    }
+
+    /**
+     *
+     */
+    fun onTest3(v : View) {
+
+
+    }
+
+    /**
+     *
+     */
+    fun onTest4(v : View) {
+        SingletonTest4.instance.test()
+    }
+
+    /**
+     *
+     */
+    fun onTest5(v : View) {
 
     }
 

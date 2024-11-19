@@ -21,7 +21,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="test1"
             android:onClick="onTest1"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -29,8 +29,35 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="test2"
             android:onClick="onTest2"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test3"
+            android:onClick="onTest3"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:onClick="onTest4"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test5"
+            android:onClick="onTest5"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
