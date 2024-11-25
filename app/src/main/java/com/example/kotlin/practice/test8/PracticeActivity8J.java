@@ -12,6 +12,9 @@ public class PracticeActivity8J extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice8);
+        Test8 test8 = new Test8();
+        test8.getParam1();
+
     }
 
 }

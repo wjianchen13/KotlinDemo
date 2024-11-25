@@ -83,7 +83,7 @@ class PracticeActivity : AppCompatActivity() {
     }
 
     /**
-     * 泛型测试，通配符使用
+     * Kotlin 定义变量，Java可以直接通过getXXX()进行访问
      */
     fun onTest8(v : View) {
         startActivity(Intent(this, PracticeActivity8::class.java))

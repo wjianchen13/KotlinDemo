@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="泛型测试，通配符使用"
+            android:text="Kotlin 定义变量，Java可以直接通过getXXX()进行访问"
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
