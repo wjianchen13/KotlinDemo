@@ -29,7 +29,8 @@ class PracticeActivity1 : AppCompatActivity() {
      *
      */
     fun onTest2(v : View) {
-
+        val simple04 = TestBean2(false)
+        println(simple04.floatValue) // 我读取number【/用户在读取 number 调用 getNumber ---> 实例 ---> getFloatValue】
     }
 
     /**
