@@ -7,6 +7,10 @@ Kotlin和Java混合使用
 
 kotlin中对象的属性是怎么定义的，为什么外部可以直接通过 对象.属性名称 进行访问？
 
+# 参考文档
+Kotlin 入门教程
+https://www.lvtao.net/books/kotlin/kotlin-tutorial.html
+
 # 注意
 有如下代码
 public class BaseMultiPartMvpPresenter<V extends IBaseMvpView, P extends BaseMvpPresenter> extends BaseMvpPresenter<V> 
