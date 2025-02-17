@@ -116,6 +116,26 @@
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
+
+        <Button
+            android:id="@+id/btn_test12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin通过 lambda 传递给Java 接口类型"
+            android:onClick="onTest12"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/btn_test13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\@JvmOverloads"
+            android:onClick="onTest13"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
         </LinearLayout>
 
 </ScrollView>

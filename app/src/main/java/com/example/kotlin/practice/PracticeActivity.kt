@@ -106,10 +106,18 @@ class PracticeActivity : AppCompatActivity() {
     }
 
     /**
-     * Kotlin和Java相互调用
+     * Kotlin通过 lambda 传递给Java 接口类型
      */
     fun onTest12(v : View) {
         startActivity(Intent(this, PracticeActivity12::class.java))
+    }
+
+
+    /**
+     * @JvmOverloads
+     */
+    fun onTest13(v : View) {
+        startActivity(Intent(this, PracticeActivity13::class.java))
     }
 
 }

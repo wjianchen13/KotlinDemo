@@ -7,7 +7,7 @@ import com.example.kotlin.R
 import com.example.kotlin.practice.test12.test1.TestListener
 
 /**
- * Kotlin和Java相互调用
+ * Kotlin通过 lambda 传递给Java 接口类型
  */
 class PracticeActivity12 : AppCompatActivity() {
 
@@ -18,6 +18,7 @@ class PracticeActivity12 : AppCompatActivity() {
 
     /**
      * Kotlin调用Java接口
+     * Kotlin通过 lambda 传递给Java 接口类型
      * 在 Kotlin 中，当你尝试通过 lambda 表达式的方式传递一个函数给一个接收函数类型参数的方法时，如果该
      * 方法接收的是 Java 接口类型，那么 lambda 表达式会默认被解释为 Kotlin 函数类型而不是 Java 接口类型
      */
