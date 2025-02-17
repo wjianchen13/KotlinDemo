@@ -1,6 +1,6 @@
-package com.example.kotlin.practice.test13
+package com.example.kotlin.practice.test18
 
-class TestBean13 {
+class TestBean18 {
 
     @JvmOverloads constructor(name: String, sex: Int = 1, isChinese: Boolean = true) {
 

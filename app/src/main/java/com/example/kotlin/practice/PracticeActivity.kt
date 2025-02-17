@@ -14,6 +14,7 @@ import com.example.kotlin.practice.test14.PracticeActivity14
 import com.example.kotlin.practice.test15.PracticeActivity15
 import com.example.kotlin.practice.test16.PracticeActivity16
 import com.example.kotlin.practice.test17.PracticeActivity17
+import com.example.kotlin.practice.test18.PracticeActivity18
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
@@ -153,10 +154,10 @@ class PracticeActivity : AppCompatActivity() {
     }
 
     /**
-     * @JvmOverloads
+     * @JvmOverloads 的用法
      */
     fun onTest18(v : View) {
-        startActivity(Intent(this, PracticeActivity13::class.java))
+        startActivity(Intent(this, PracticeActivity18::class.java))
     }
 
 }
