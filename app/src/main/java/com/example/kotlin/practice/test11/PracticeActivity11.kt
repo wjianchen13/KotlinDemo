@@ -48,7 +48,7 @@ class PracticeActivity11 : AppCompatActivity() {
     /**
      * run函数通常不会直接调用，
      * 而是要在某个对象的基础上调用；其次run函数只接收一个Lambda 参数，并且会在Lambda 表
-     * 达式中提供调用对象的上下文
+     * 达式中提供调用对象的上下文，可以自定义返回值
      */
     private fun initRun() {
         val list = listOf("Apple", "Banana", "Orange", "Pear", "Grape")

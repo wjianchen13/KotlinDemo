@@ -84,7 +84,7 @@
             android:id="@+id/btn_coroutines"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="Kotlin 定义变量，Java可以直接通过getXXX()进行访问"
             android:onClick="onTest8"
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
@@ -116,12 +116,11 @@
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
-
         <Button
             android:id="@+id/btn_test12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin通过 lambda 传递给Java 接口类型"
+            android:text="Kotlin和Java相互调用"
             android:onClick="onTest12"
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
@@ -131,10 +130,50 @@
             android:id="@+id/btn_test13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="\@JvmOverloads"
+            android:text="Kotlin静态方法@JvmStatic 和 @JvmOverloads一起使用，导致找不到方法的问题"
             android:onClick="onTest13"
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_test14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java activity 继承Kotlin 父类Activity 父类Activity重写了接口方法，但是在子类缺提示没有覆写方法的问题"
+            android:onClick="onTest14"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_test15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kotlin访问Java代码的属性，当Java同时拥有getXXX和setXXX方法时，Kotlin可以直接通过XXX访问属性，包括属性读写"
+            android:onClick="onTest15"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_test16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试Kotlin接口属性获取不会调用括号内容的问题"
+            android:onClick="onTest16"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_test17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标签"
+            android:onClick="onTest17"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+
+
+
 
         </LinearLayout>
 

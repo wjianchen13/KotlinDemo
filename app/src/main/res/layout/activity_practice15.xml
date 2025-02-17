@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin和Java相互调用"
+            android:text="Kotlin访问Java代码的属性，当Java同时拥有getXXX和setXXX方法时，Kotlin可以直接通过XXX访问属性，包括属性读写"
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />

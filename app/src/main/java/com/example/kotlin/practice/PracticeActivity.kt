@@ -9,6 +9,11 @@ import com.example.kotlin.practice.test1.PracticeActivity1
 import com.example.kotlin.practice.test10.PracticeActivity10J
 import com.example.kotlin.practice.test11.PracticeActivity11
 import com.example.kotlin.practice.test12.PracticeActivity12
+import com.example.kotlin.practice.test13.PracticeActivity13
+import com.example.kotlin.practice.test14.PracticeActivity14
+import com.example.kotlin.practice.test15.PracticeActivity15
+import com.example.kotlin.practice.test16.PracticeActivity16
+import com.example.kotlin.practice.test17.PracticeActivity17
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
@@ -78,7 +83,7 @@ class PracticeActivity : AppCompatActivity() {
     }
 
     /**
-     * 泛型测试，通配符使用
+     * Kotlin 定义变量，Java可以直接通过getXXX()进行访问
      */
     fun onTest8(v : View) {
         startActivity(Intent(this, PracticeActivity8::class.java))
@@ -112,11 +117,45 @@ class PracticeActivity : AppCompatActivity() {
         startActivity(Intent(this, PracticeActivity12::class.java))
     }
 
+    /**
+     * Kotlin静态方法@JvmStatic 和 @JvmOverloads一起使用，导致找不到方法的问题
+     */
+    fun onTest13(v : View) {
+        startActivity(Intent(this, PracticeActivity13::class.java))
+    }
+
+    /**
+     * Java activity 继承Kotlin 父类Activity 父类Activity重写了接口方法，但是在子类缺提示没有覆写方法的问题
+     */
+    fun onTest14(v : View) {
+        startActivity(Intent(this, PracticeActivity14::class.java))
+    }
+
+    /**
+     * Kotlin访问Java代码的属性，当Java同时拥有getXXX和setXXX方法时，Kotlin可以直接通过XXX访问属性，包括属性读写
+     */
+    fun onTest15(v : View) {
+        startActivity(Intent(this, PracticeActivity15::class.java))
+    }
+
+    /**
+     * 测试Kotlin接口属性获取不会调用括号内容的问题
+     */
+    fun onTest16(v : View) {
+        startActivity(Intent(this, PracticeActivity16::class.java))
+    }
+
+    /**
+     * 标签
+     */
+    fun onTest17(v : View) {
+        startActivity(Intent(this, PracticeActivity17::class.java))
+    }
 
     /**
      * @JvmOverloads
      */
-    fun onTest13(v : View) {
+    fun onTest18(v : View) {
         startActivity(Intent(this, PracticeActivity13::class.java))
     }
 
