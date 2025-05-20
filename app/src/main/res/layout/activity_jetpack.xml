@@ -54,5 +54,17 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_viewmodel2" />
 
+    <Button
+        android:id="@+id/btn_livedata2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LiveData"
+        android:onClick="onLiveData2"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_livedata" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

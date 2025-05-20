@@ -1,4 +1,4 @@
-package com.example.kotlin.first.jetpack.livedata
+package com.example.kotlin.first.jetpack.livedata.test1
 
 import android.content.Context
 import android.content.SharedPreferences
