@@ -14,6 +14,7 @@ import com.example.kotlin.practice.test14.PracticeActivity14
 import com.example.kotlin.practice.test15.PracticeActivity15
 import com.example.kotlin.practice.test16.PracticeActivity16
 import com.example.kotlin.practice.test17.PracticeActivity17
+import com.example.kotlin.practice.test18.PracticeActivity18
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
@@ -111,7 +112,7 @@ class PracticeActivity : AppCompatActivity() {
     }
 
     /**
-     * Kotlin和Java相互调用
+     * Kotlin通过 lambda 传递给Java 接口类型
      */
     fun onTest12(v : View) {
         startActivity(Intent(this, PracticeActivity12::class.java))
@@ -150,6 +151,13 @@ class PracticeActivity : AppCompatActivity() {
      */
     fun onTest17(v : View) {
         startActivity(Intent(this, PracticeActivity17::class.java))
+    }
+
+    /**
+     * @JvmOverloads 的用法
+     */
+    fun onTest18(v : View) {
+        startActivity(Intent(this, PracticeActivity18::class.java))
     }
 
 }
