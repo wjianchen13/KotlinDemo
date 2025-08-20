@@ -23,8 +23,8 @@ class LiveDataViewModel3(countReserved: Int) : ViewModel() {
             user-> "${user.firstName} ${user.lastName}"
     }
 
-    fun change() {
-        var u = User3("test1", "test2", 18)
-        user.postValue(u)
-    }
+//    fun change() {
+//        var u = User3("test1", "test2", 18)
+//        user.postValue(u)
+//    }
 }

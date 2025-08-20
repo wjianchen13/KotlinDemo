@@ -3,9 +3,14 @@ JetPack 相关使用
 Kotlin和Java混合使用  
 1.LifeCycle  
 2.viewmodel  
-3.livedata  
+3.livedata
 
 kotlin中对象的属性是怎么定义的，为什么外部可以直接通过 对象.属性名称 进行访问？
+
+# 编译环境
+android-studio-2024.3.2.15
+gradle插件:8.10.0
+gradle:gradle-8.12-bin
 
 # 参考文档
 Kotlin 入门教程

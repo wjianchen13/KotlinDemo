@@ -5,7 +5,7 @@ import com.example.kotlin.BaseApp
 
 interface ICallBack3 {
 
-    @JvmDefault
+//    @JvmDefault
     fun showToast() {
         Toast.makeText(BaseApp.getInstance(), "default", Toast.LENGTH_SHORT).show()
     }

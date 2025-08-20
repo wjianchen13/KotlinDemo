@@ -24,7 +24,7 @@ class LiveDataViewModel2(countReserved: Int) : ViewModel() {
     }
 
     fun change() {
-        var u = User3("test1", "test2", 18)
-        user.postValue(u)
+//        var u = User3("test1", "test2", 18)
+//        user.postValue(u)
     }
 }

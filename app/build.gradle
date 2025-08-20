@@ -4,6 +4,7 @@ apply plugin: 'kotlin-android'
 //apply plugin: 'kotlin-kapt'
 
 android {
+    namespace "com.example.kotlin"
     compileSdk 33
     buildToolsVersion "30.0.3"
 
@@ -25,8 +26,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility 1.8
-        targetCompatibility 1.8
+        sourceCompatibility = 17
+        targetCompatibility = 17
     }
 
     // 添加DataBinding的支持 必须有 kapt
@@ -35,8 +36,7 @@ android {
     }
 
     kotlinOptions {
-        freeCompilerArgs = ['-jvm-target=1.8','-Xjvm-default=all']
-//        freeCompilerArgs = ['-jvm-target=1.8','-Xjvm-default=all-compatibility']
+        freeCompilerArgs = ['-jvm-target=17','-Xjvm-default=all']
     }
 
 }

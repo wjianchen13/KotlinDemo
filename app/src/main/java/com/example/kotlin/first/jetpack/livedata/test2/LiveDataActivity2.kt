@@ -41,29 +41,29 @@ class LiveDataActivity2 : AppCompatActivity() {
         viewModel = ViewModelProvider(this, LiveDataModelFactory3(countReserved))
                 .get(LiveDataViewModel3::class.java)
         plusOneBtn.setOnClickListener {
-            viewModel.plusOne()
+//            viewModel.plusOne()
         }
         clearBtn.setOnClickListener {
-            viewModel.clear()
+//            viewModel.clear()
         }
-        viewModel.counter.observe(this, Observer { count ->
-            infoText.text = count.toString()
-        })
+//        viewModel.counter.observe(this, Observer { count ->
+//            infoText.text = count.toString()
+//        })
 
         plusOneBtn.setOnClickListener {
-            viewModel.plusOne()
+//            viewModel.plusOne()
         }
         clearBtn.setOnClickListener {
-            viewModel.clear()
+//            viewModel.clear()
         }
 
-        viewModel.user.observe(this, Observer<User3> { user ->
-            tv_test.text = "name: ${user.name}  age: ${user.age}"
-        })
-
-        tv_test1.setOnClickListener {
-            viewModel.change()
-        }
+//        viewModel.user.observe(this, Observer<User3> { user ->
+//            tv_test.text = "name: ${user.name}  age: ${user.age}"
+//        })
+//
+//        tv_test1.setOnClickListener {
+//            viewModel.change()
+//        }
 
 //        接下来到最关键的地方了，这里调用了viewModel.counter的observe()方法来观察数据的
 //        变化。经过对MainViewModel 的改造，现在counter变量已经变成了一个LiveData对象，任
@@ -76,9 +76,9 @@ class LiveDataActivity2 : AppCompatActivity() {
 
     override fun onPause() {
         super.onPause()
-        var e  = sp?.edit()
-        e?.putInt("count_reserved", viewModel.counter.value ?: 0)
-        e?.commit()
+//        var e  = sp?.edit()
+//        e?.putInt("count_reserved", viewModel.counter.value ?: 0)
+//        e?.commit()
     }
 
 
