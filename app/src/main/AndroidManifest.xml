@@ -88,8 +88,12 @@
         <activity android:name="com.example.kotlin.first.jetpack.lifecycle.LifeCycleActivity" />
         <activity android:name="com.example.kotlin.first.jetpack.viewmodel.ViewModelActivity" />
         <activity android:name="com.example.kotlin.first.jetpack.viewmodel.ViewModelActivity2" />
-        <activity android:name="com.example.kotlin.first.jetpack.livedata.test1.LiveDataActivity" />
-        <activity android:name="com.example.kotlin.first.jetpack.livedata.test2.LiveDataActivity3" />
+        <activity android:name="com.example.kotlin.first.jetpack.livedata.LiveDataActivity" />
+        <activity android:name="com.example.kotlin.first.jetpack.livedata.test1.LiveDataActivity1" />
+        <activity android:name="com.example.kotlin.first.jetpack.livedata.test2.LiveDataActivity2" />
+        <activity android:name="com.example.kotlin.first.jetpack.livedata.test3.LiveDataActivity3" />
+        <activity android:name="com.example.kotlin.first.jetpack.livedata.test4.LiveDataActivity4" />
+        <activity android:name="com.example.kotlin.first.jetpack.livedata.test5.LiveDataActivity5" />
 
         <activity android:name="com.example.kotlin.xiangxue.delegate.DelegateActivity" />
         <activity android:name="com.example.kotlin.xiangxue.delegate.TestDelegateActivity1" />

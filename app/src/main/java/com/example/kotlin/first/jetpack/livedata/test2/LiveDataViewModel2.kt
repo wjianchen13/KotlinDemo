@@ -3,28 +3,24 @@ package com.example.kotlin.first.jetpack.livedata.test2
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.map
 
 class LiveDataViewModel2(countReserved: Int) : ViewModel() {
 
-//    //    永远只暴露不可变的LiveData给外界
-//    private val userLiveData : LiveData<User2>
-//        get() = _userLiveData
-//
-//    private val _userLiveData =  MutableLiveData<User2>()
-//
-//    val userName: LiveData<String> = userLiveData.map {
-//            user-> "${user.firstName} ${user.lastName}"
-//    }
+    val counter: LiveData<Int>
+        get() = _counter
 
-    private val userLiveData =  MutableLiveData<User3>()
+    private val _counter = MutableLiveData<Int>()
 
-    val userName: LiveData<String> = userLiveData.map {
-            user-> "${user.firstName} ${user.lastName}"
+    init {
+        _counter.value = countReserved
     }
 
-    fun change() {
-//        var u = User3("test1", "test2", 18)
-//        user.postValue(u)
+    fun plusOne() {
+        val count = _counter.value ?: 0
+        _counter.value = count + 1
+    }
+
+    fun clear() {
+        _counter.value = 0
     }
 }

@@ -3,7 +3,7 @@ package com.example.kotlin.first.jetpack.livedata.test1
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class LiveDataViewModel(countReserved: Int) : ViewModel() {
+class LiveDataViewModel1(countReserved: Int) : ViewModel() {
 
     var user = MutableLiveData<User>()
 

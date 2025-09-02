@@ -1,48 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-    <TextView
-        android:id="@+id/infoText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="32sp"/>
-    <Button
-        android:id="@+id/plusOneBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Plus One"/>
-
-    <Button
-        android:id="@+id/clearBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Clear"/>
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tv_test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="32sp"/>
-
-    <Button
-        android:id="@+id/tv_test1"
+        android:id="@+id/tv_livedata"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="改变LiveData的数据"/>
+        android:text="LiveData 测试"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
 
     <Button
-        android:id="@+id/tv_test2"
+        android:id="@+id/btn_livedata"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text=""/>
+        android:text="LiveData 基础使用"
+        android:onClick="onLiveData1"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_livedata2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LiveData 基础使用，不对外开放"
+        android:onClick="onLiveData2"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_livedata3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LiveData map"
+        android:onClick="onLiveData3"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_livedata4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LiveData map 不对外开放"
+        android:onClick="onLiveData4"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_livedata5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LiveData switchMap"
+        android:onClick="onLiveData5"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false" />
+
 
 </LinearLayout>

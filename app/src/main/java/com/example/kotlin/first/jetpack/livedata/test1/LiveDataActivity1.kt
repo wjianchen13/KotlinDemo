@@ -12,11 +12,9 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.kotlin.R
 
 /**
- * ViewModel 的生命周期是长于Activity
- * 的，如果把Activity 的实例传给ViewModel ，就很有可能会因为Activity 无法释放而造成内存泄
- * 漏，这是一种非常错误的做法
+ * LiveData 基础使用
  */
-class LiveDataActivity : AppCompatActivity() {
+class LiveDataActivity1 : AppCompatActivity() {
 
     private lateinit var plusOneBtn : Button
     private lateinit var clearBtn : Button
@@ -24,12 +22,12 @@ class LiveDataActivity : AppCompatActivity() {
     private lateinit var tv_test : TextView
     private lateinit var tv_test1 : TextView
 
-    lateinit var viewModel: LiveDataViewModel
+    lateinit var viewModel: LiveDataViewModel1
     lateinit var sp: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_livedata)
+        setContentView(R.layout.activity_livedata1)
         plusOneBtn = findViewById(R.id.plusOneBtn)
         clearBtn = findViewById(R.id.clearBtn)
         infoText = findViewById(R.id.infoText)
@@ -38,8 +36,8 @@ class LiveDataActivity : AppCompatActivity() {
 
         sp = getPreferences(Context.MODE_PRIVATE)
         val countReserved = sp.getInt("count_reserved", 0)
-        viewModel = ViewModelProvider(this, LiveDataModelFactory(countReserved))
-                .get(LiveDataViewModel::class.java)
+        viewModel = ViewModelProvider(this, LiveDataModelFactory1(countReserved))
+                .get(LiveDataViewModel1::class.java)
         plusOneBtn.setOnClickListener {
             viewModel.plusOne()
         }
@@ -49,13 +47,6 @@ class LiveDataActivity : AppCompatActivity() {
         viewModel.counter.observe(this, Observer { count ->
             infoText.text = count.toString()
         })
-
-        plusOneBtn.setOnClickListener {
-            viewModel.plusOne()
-        }
-        clearBtn.setOnClickListener {
-            viewModel.clear()
-        }
 
         viewModel.user.observe(this, Observer<User> { user ->
             tv_test.text = "name: ${user.name}  age: ${user.age}"

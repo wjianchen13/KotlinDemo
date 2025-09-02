@@ -5,6 +5,6 @@ import androidx.lifecycle.ViewModelProvider
 
 class LiveDataModelFactory2(private val countReserved: Int) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        return LiveDataViewModel3(countReserved) as T
+        return LiveDataViewModel2(countReserved) as T
     }
 }
