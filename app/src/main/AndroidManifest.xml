@@ -180,7 +180,6 @@
         <activity android:name="com.example.kotlin.practice.test10.PracticeActivity10J" />
         <activity android:name="com.example.kotlin.practice.test11.PracticeActivity11" />
         <activity android:name="com.example.kotlin.practice.test12.PracticeActivity12" />
-        <activity android:name="com.example.kotlin.practice.test18.PracticeActivity18" />
         <activity android:name="com.example.kotlin.practice.test14.PracticeActivity14" />
         <activity android:name="com.example.kotlin.practice.test15.PracticeActivity15" />
         <activity android:name="com.example.kotlin.practice.test16.PracticeActivity16" />
@@ -192,6 +191,10 @@
         <activity android:name="com.example.kotlin.mvc.kotlin.test_fragment.view.TestFragmentActivity1" />
         <activity android:name="com.example.kotlin.mvc.kotlin.test_multi_fragment.view.TestMultiPartyFragmentActivity" />
         <activity android:name="com.example.kotlin.mvc.kotlin.test_multi_activity.view.TestMultiPartyActivity" />
+
+        <activity android:name="com.example.kotlin.flow.FlowActivity" />
+        <activity android:name="com.example.kotlin.flow.test1.FlowActivity1" />
+        <activity android:name="com.example.kotlin.flow.test2.FlowActivity2" />
 
     </application>
 

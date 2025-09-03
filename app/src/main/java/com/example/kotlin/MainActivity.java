@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlin.first.KotlinActivity;
+import com.example.kotlin.flow.FlowActivity;
 import com.example.kotlin.mvc.MvcActivity;
 import com.example.kotlin.practice.PracticeActivity;
 import com.example.kotlin.xiangxue.XiangxueActivity;
@@ -49,6 +50,14 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onTest4(View v) {
         startActivity(new Intent(this, MvcActivity.class));
+    }
+
+    /**
+     * Flow
+     * @param v
+     */
+    public void onTest5(View v) {
+        startActivity(new Intent(this, FlowActivity.class));
     }
 
 }
