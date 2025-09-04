@@ -195,6 +195,12 @@
         <activity android:name="com.example.kotlin.flow.FlowActivity" />
         <activity android:name="com.example.kotlin.flow.test1.FlowActivity1" />
         <activity android:name="com.example.kotlin.flow.test2.FlowActivity2" />
+        <activity android:name="com.example.kotlin.flow.test4.FlowActivity4" />
+        <activity android:name="com.example.kotlin.flow.test5.FlowActivity5" />
+        <activity android:name="com.example.kotlin.flow.test6.FlowActivity6" />
+        <activity android:name="com.example.kotlin.flow.test7.FlowActivity7" />
+        <activity android:name="com.example.kotlin.flow.test8.FlowActivity8" />
+        <activity android:name="com.example.kotlin.flow.test9.FlowActivity9" />
 
     </application>
 

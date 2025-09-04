@@ -35,6 +35,54 @@
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flow的生命周期管理"
+            android:onClick="onTest4"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StateFlow的基本用法"
+            android:onClick="onTest5"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StateFlow的高级用法"
+            android:onClick="onTest6"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StateFlow的粘性特性"
+            android:onClick="onTest7"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StateFlow的粘性导致问题"
+            android:onClick="onTest8"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SharedFlow"
+            android:onClick="onTest9"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
 
     </LinearLayout>
 
