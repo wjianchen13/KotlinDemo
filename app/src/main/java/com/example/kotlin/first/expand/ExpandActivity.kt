@@ -31,84 +31,32 @@ class ExpandActivity : AppCompatActivity() {
     }
 
     /**
-     *
+     * 运算符重载
      */
     fun onTest3(v : View) {
-
+        val money1 = Money(5)
+        val money2 = Money(10)
+        val money3 = money1 + money2
+        println(money3.value)
     }
 
     /**
-     *
+     * 运算符重载
      */
     fun onTest4(v : View) {
-
+        val money1 = Money(5)
+        val money2 = Money(10)
+        val money3 = money1 + money2
+        val money4 = money3 + 20
+        println(money4.value)
     }
 
     /**
-     *
+     * 运算符重载
      */
     fun onTest5(v : View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest6(v : View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest7(v : View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest8(v : View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest9(v : View) {
-        val list = listOf("Apple", "Banana", "Orange", "Pear", "Grape", "Watermelon")
-        val newList = list.map { it.toUpperCase() } // 全部转换成大写
-        for (fruit in newList) {
-            println(fruit)
-        }
-    }
-
-    /**
-     *
-     */
-    fun onTest10(v : View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest11(v : View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest12(v : View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest13(v : View) {
-
+        val str = "abc" * 3
+        println(str)
     }
 
 }

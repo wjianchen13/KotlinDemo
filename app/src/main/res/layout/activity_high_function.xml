@@ -79,7 +79,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="简化SharedPreferences的用法"
+            android:text="内联函数区别"
             android:onClick="onTest8"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -87,40 +87,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="集合map函数"
+            android:text="简化SharedPreferences的用法"
             android:onClick="onTest9"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="集合filter函数"
-            android:onClick="onTest10"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="集合any all函数"
-            android:onClick="onTest11"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Kotlin创建匿名内部类"
-            android:onClick="onTest12"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Java 函数式API使用 Thread"
-            android:onClick="onTest13"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 

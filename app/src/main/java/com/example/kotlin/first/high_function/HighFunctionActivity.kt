@@ -164,22 +164,37 @@ class HighFunctionActivity : AppCompatActivity() {
         runnable.run()
     }
 
+    inline fun inlineTest(block1: () -> Unit, noinline block2: () -> Unit) {
+        inlineTest2(block1, block2)
+
+    }
+
+    inline fun inlineTest2(block1: () -> Unit, noinline block2: () -> Unit) {
+
+    }
+
+
+    /**
+     * 内联函数区别
+     */
+    fun onTest8(v : View) {
+        runRunnable1 {
+            val a = 1
+            val b = 2
+            val c = a + b
+//            return
+        }
+
+
+    }
+
+
     fun SharedPreferences.open(block: SharedPreferences.Editor.() -> Unit) {
         val editor = edit()
         editor.block()
         editor.apply()
     }
 
-    /**
-     * 简化SharedPreferences的用法
-     */
-    fun onTest8(v : View) {
-        getSharedPreferences("data", Context.MODE_PRIVATE).open {
-            putString("name", "Tom")
-            putInt("age", 28)
-            putBoolean("married", false)
-        }
-    }
 
     fun cvOf(vararg pairs: Pair<String, Any?>) = ContentValues().apply {
         for (pair in pairs) {
@@ -204,35 +219,12 @@ class HighFunctionActivity : AppCompatActivity() {
      *
      */
     fun onTest9(v : View) {
-
+        getSharedPreferences("data", Context.MODE_PRIVATE).open {
+            putString("name", "Tom")
+            putInt("age", 28)
+            putBoolean("married", false)
+        }
     }
 
-    /**
-     *
-     */
-    fun onTest10(v : View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest11(v : View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest12(v : View) {
-
-    }
-
-    /**
-     *
-     */
-    fun onTest13(v : View) {
-
-    }
 
 }

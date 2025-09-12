@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.kotlin.R;
 import com.example.kotlin.first.coroutines.CoroutinesActivity;
 import com.example.kotlin.first.delegate.DelegateActivity;
+import com.example.kotlin.first.dsl.DslActivity;
+import com.example.kotlin.first.expand.ExpandActivity;
 import com.example.kotlin.first.generic.GenericActivity;
 import com.example.kotlin.first.high_function.HighFunctionActivity;
 import com.example.kotlin.first.infix.InfixActivity;
@@ -66,10 +68,18 @@ public class KotlinActivity extends AppCompatActivity {
     }
 
     /**
-     * 高阶函数详解
+     * 扩展函数和运算符重载
      * @param v
      */
     public void onTest9(View v) {
+        startActivity(new Intent(this, ExpandActivity.class));
+    }
+
+    /**
+     * 高阶函数详解
+     * @param v
+     */
+    public void onTest10(View v) {
         startActivity(new Intent(this, HighFunctionActivity.class));
     }
 
@@ -77,7 +87,7 @@ public class KotlinActivity extends AppCompatActivity {
      * 泛型
      * @param v
      */
-    public void onTest10(View v) {
+    public void onTest11(View v) {
         startActivity(new Intent(this, GenericActivity.class));
     }
 
@@ -85,7 +95,7 @@ public class KotlinActivity extends AppCompatActivity {
      * 委托
      * @param v
      */
-    public void onTest11(View v) {
+    public void onTest12(View v) {
         startActivity(new Intent(this, DelegateActivity.class));
     }
 
@@ -93,7 +103,7 @@ public class KotlinActivity extends AppCompatActivity {
      * 中缀函数
      * @param v
      */
-    public void onTest12(View v) {
+    public void onTest13(View v) {
         startActivity(new Intent(this, InfixActivity.class));
     }
 
@@ -101,7 +111,7 @@ public class KotlinActivity extends AppCompatActivity {
      *  Kotlin 协程
      * @param v
      */
-    public void onTest13(View v) {
+    public void onTest14(View v) {
         startActivity(new Intent(this, CoroutinesActivity.class));
     }
 
@@ -109,8 +119,17 @@ public class KotlinActivity extends AppCompatActivity {
      * Jetpack
      * @param v
      */
-    public void onTest14(View v) {
+    public void onTest15(View v) {
         startActivity(new Intent(this, JetpackActivity.class));
     }
+
+
+    /**
+     * 使用DS L构建专有的语法结构
+     */
+    public void onTest16(View v) {
+        startActivity(new Intent(this, DslActivity.class));
+    }
+
 
 }

@@ -78,7 +78,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="高阶函数详解"
+            android:text="扩展函数和运算符重载"
             android:onClick="onTest9"
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
@@ -86,7 +86,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="泛型"
+            android:text="高阶函数详解"
             android:onClick="onTest10"
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
@@ -94,7 +94,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="委托"
+            android:text="泛型"
             android:onClick="onTest11"
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
@@ -102,7 +102,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="中缀函数"
+            android:text="委托"
             android:onClick="onTest12"
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
@@ -110,7 +110,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kotlin 协程"
+            android:text="中缀函数"
             android:onClick="onTest13"
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
@@ -118,8 +118,24 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jetpack"
+            android:text="Kotlin 协程"
             android:onClick="onTest14"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jetpack"
+            android:onClick="onTest15"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用DS L构建专有的语法结构"
+            android:onClick="onTest16"
             android:layout_marginTop="5dp"
             android:textAllCaps="false" />
 

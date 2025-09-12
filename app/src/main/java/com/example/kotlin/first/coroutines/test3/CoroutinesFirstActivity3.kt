@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlin.R
+import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -20,7 +21,9 @@ class CoroutinesFirstActivity3 : AppCompatActivity() {
     }
 
     private suspend fun printDot() = coroutineScope {
-        launch {
+        println("Running1 in ${coroutineContext[CoroutineName]}")
+        launch(CoroutineName("test2")) {
+            println("Running2 in ${coroutineContext[CoroutineName]}")
             println("codes run in coroutineScope")
             delay(1000)
             println("codes run in coroutineScope finished")
@@ -32,7 +35,8 @@ class CoroutinesFirstActivity3 : AppCompatActivity() {
      * 和子协程没有全部执行完之前一直阻塞当前线程
      */
     fun onTest1(v : View) {
-        runBlocking {
+        runBlocking(CoroutineName("test1")) {
+            println("Running in ${coroutineContext[CoroutineName]}")
             printDot()
         }
     }

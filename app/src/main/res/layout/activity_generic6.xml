@@ -23,7 +23,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="泛型实化 测试"
+            android:text="泛型协变 问题"
             android:onClick="onTest1"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -31,16 +31,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="泛型实化 应用"
+            android:text="泛型协变 应用"
             android:onClick="onTest2"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="泛型实化 应用"
-            android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 

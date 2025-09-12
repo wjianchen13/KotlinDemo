@@ -21,7 +21,7 @@ class GenericActivity6 : AppCompatActivity() {
     }
 
     /**
-     * 泛型 不合法
+     * 泛型协变 问题
      */
     fun onTest1(v : View) {
 //        val student = Student("Tom", 19)
@@ -36,20 +36,13 @@ class GenericActivity6 : AppCompatActivity() {
     }
 
     /**
-     * 泛型实化 应用
+     * 泛型协变 应用
      */
     fun onTest2(v : View) {
         val student = Student("Tom", 19)
         val data = SimpleData1<Student>(student)
         handleMyData(data)
         val studentData = data.get()
-    }
-
-    /**
-     * 泛型实化 应用
-     */
-    fun onTest3(v : View) {
-
     }
 
 }

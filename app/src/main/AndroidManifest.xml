@@ -46,7 +46,7 @@
         <activity android:name="com.example.kotlin.first.standard.StandardActivity" />
         <activity android:name="com.example.kotlin.first.standard.StandardActivity1" />
         <activity android:name="com.example.kotlin.first.late.LateActivity" />
-
+        <activity android:name="com.example.kotlin.first.expand.ExpandActivity" />
         <activity android:name="com.example.kotlin.first.high_function.HighFunctionActivity" />
 
         <activity android:name="com.example.kotlin.first.generic.GenericActivity" />
@@ -94,6 +94,8 @@
         <activity android:name="com.example.kotlin.first.jetpack.livedata.test3.LiveDataActivity3" />
         <activity android:name="com.example.kotlin.first.jetpack.livedata.test4.LiveDataActivity4" />
         <activity android:name="com.example.kotlin.first.jetpack.livedata.test5.LiveDataActivity5" />
+
+        <activity android:name="com.example.kotlin.first.dsl.DslActivity" />
 
         <activity android:name="com.example.kotlin.xiangxue.delegate.DelegateActivity" />
         <activity android:name="com.example.kotlin.xiangxue.delegate.TestDelegateActivity1" />

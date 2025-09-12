@@ -39,7 +39,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="不可变set"
+            android:text="运算符重载"
             android:onClick="onTest3"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -47,7 +47,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="可变set"
+            android:text="运算符重载"
             android:onClick="onTest4"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
@@ -55,75 +55,11 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="map常规使用"
+            android:text="运算符重载"
             android:onClick="onTest5"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="map推荐写法"
-            android:onClick="onTest6"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="mapOf"
-            android:onClick="onTest7"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="函数式API 推导"
-            android:onClick="onTest8"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="集合map函数"
-            android:onClick="onTest9"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="集合filter函数"
-            android:onClick="onTest10"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="集合any all函数"
-            android:onClick="onTest11"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Kotlin创建匿名内部类"
-            android:onClick="onTest12"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Java 函数式API使用 Thread"
-            android:onClick="onTest13"
-            android:layout_marginTop="10dp"
-            android:textAllCaps="false" />
-
-
     </LinearLayout>
+
 </ScrollView>
