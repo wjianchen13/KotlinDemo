@@ -7,13 +7,12 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kotlin.R;
-import com.example.kotlin.first.jetpack.lifecycle.LifeCycleActivity;
-import com.example.kotlin.first.jetpack.livedata.LiveDataActivity;
+import com.example.kotlin.first.dsl.test1.DslActivity1;
+import com.example.kotlin.first.dsl.test2.DslActivity2;
 import com.example.kotlin.first.jetpack.viewmodel.ViewModelActivity;
-import com.example.kotlin.first.jetpack.viewmodel.ViewModelActivity2;
 
 /**
- * 使用DS L构建专有的语法结构
+ * 使用DSL构建专有的语法结构
  */
 public class DslActivity extends AppCompatActivity {
 
@@ -23,19 +22,20 @@ public class DslActivity extends AppCompatActivity {
         setContentView(R.layout.activity_first_dsl);
     }
 
-    public void onLifeCycle(View v) {
-        startActivity(new Intent(this, LifeCycleActivity.class));
+    /**
+     * 模拟dependencies
+     * @param v
+     */
+    public void onTest1(View v) {
+        startActivity(new Intent(this, DslActivity1.class));
     }
 
-    public void onViewModel(View v) {
-        startActivity(new Intent(this, ViewModelActivity.class));
+    /**
+     * Html 标签
+     * @param v
+     */
+    public void onTest2(View v) {
+        startActivity(new Intent(this, DslActivity2.class));
     }
 
-    public void onViewModel2(View v) {
-        startActivity(new Intent(this, ViewModelActivity2.class));
-    }
-
-    public void onLiveData(View v) {
-        startActivity(new Intent(this, LiveDataActivity.class));
-    }
 }

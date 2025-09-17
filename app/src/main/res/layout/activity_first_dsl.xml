@@ -6,52 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="使用DSL构建专有的语法结构"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
     <Button
         android:id="@+id/btn_lifecycle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LifeCycle"
-        android:onClick="onLifeCycle"
+        android:text="模拟dependencies"
+        android:onClick="onTest1"
         android:layout_marginTop="10dp"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
 
     <Button
         android:id="@+id/btn_viewmodel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ViewModel"
-        android:onClick="onViewModel"
+        android:onClick="onTest1"
         android:layout_marginTop="10dp"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_lifecycle" />
-
-    <Button
-        android:id="@+id/btn_viewmodel2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ViewModel2"
-        android:onClick="onViewModel2"
-        android:layout_marginTop="10dp"
-        android:textAllCaps="false"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_viewmodel" />
-
-    <Button
-        android:id="@+id/btn_livedata"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="LiveData"
-        android:onClick="onLiveData"
-        android:layout_marginTop="10dp"
-        android:textAllCaps="false"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_viewmodel2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

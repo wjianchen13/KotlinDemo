@@ -96,6 +96,8 @@
         <activity android:name="com.example.kotlin.first.jetpack.livedata.test5.LiveDataActivity5" />
 
         <activity android:name="com.example.kotlin.first.dsl.DslActivity" />
+        <activity android:name="com.example.kotlin.first.dsl.test1.DslActivity1" />
+        <activity android:name="com.example.kotlin.first.dsl.test2.DslActivity2" />
 
         <activity android:name="com.example.kotlin.xiangxue.delegate.DelegateActivity" />
         <activity android:name="com.example.kotlin.xiangxue.delegate.TestDelegateActivity1" />
