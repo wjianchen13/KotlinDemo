@@ -36,6 +36,12 @@ class PracticeActivity11 : AppCompatActivity() {
             ts1.logName()
             ts1.logAge()
         }
+        val str = "hello"?.let {
+            println("===============> str1: $it")
+            it
+        }
+        println("===============> str2: $str")
+
     }
 
     /**
@@ -125,7 +131,7 @@ class PracticeActivity11 : AppCompatActivity() {
     }
 
     /**
-     * 使用 also 可以在调用某个函数或操作之前，先对该对象进行一些其他的处理或操作，而无需使用中间变量
+     * 使用 also 可以在调用某个函数或操作之前，先对该对象进行一些其他的处理或操作，而无需使用中间变量,返回调用对象本身
      */
     private fun initAlso() {
         val name = "Alice"

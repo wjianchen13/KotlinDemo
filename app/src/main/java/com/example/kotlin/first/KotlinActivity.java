@@ -12,7 +12,7 @@ import com.example.kotlin.first.delegate.DelegateActivity;
 import com.example.kotlin.first.dsl.DslActivity;
 import com.example.kotlin.first.expand.ExpandActivity;
 import com.example.kotlin.first.generic.GenericActivity;
-import com.example.kotlin.first.high_function.HighFunctionActivity;
+import com.example.kotlin.first.high_function.HighFunctionActivity1;
 import com.example.kotlin.first.infix.InfixActivity;
 import com.example.kotlin.first.lambda.LambdaActivity;
 import com.example.kotlin.first.late.LateActivity;
@@ -80,7 +80,7 @@ public class KotlinActivity extends AppCompatActivity {
      * @param v
      */
     public void onTest10(View v) {
-        startActivity(new Intent(this, HighFunctionActivity.class));
+        startActivity(new Intent(this, HighFunctionActivity1.class));
     }
 
     /**

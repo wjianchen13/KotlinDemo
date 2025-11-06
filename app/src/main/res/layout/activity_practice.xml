@@ -181,6 +181,14 @@
             android:textAllCaps="false" />
 
 
+        <Button
+            android:id="@+id/btn_test19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\@JvmField 的用法"
+            android:onClick="onTest19"
+            android:layout_marginTop="5dp"
+            android:textAllCaps="false" />
 
 
         </LinearLayout>

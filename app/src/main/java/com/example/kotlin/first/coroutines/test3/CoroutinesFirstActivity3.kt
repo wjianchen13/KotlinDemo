@@ -30,6 +30,18 @@ class CoroutinesFirstActivity3 : AppCompatActivity() {
         }
     }
 
+    private suspend fun printDot1() {
+        coroutineScope ({
+            println("Running1 in ${coroutineContext[CoroutineName]}")
+            launch(CoroutineName("test2")) {
+                println("Running2 in ${coroutineContext[CoroutineName]}")
+                println("codes run in coroutineScope")
+                delay(1000)
+                println("codes run in coroutineScope finished")
+            }
+        })
+    }
+
     /**
      * runBlocking函数同样会创建一个协程的作用域，但是它可以保证在协程作用域内的所有代码
      * 和子协程没有全部执行完之前一直阻塞当前线程

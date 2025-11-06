@@ -15,6 +15,7 @@ import com.example.kotlin.practice.test15.PracticeActivity15
 import com.example.kotlin.practice.test16.PracticeActivity16
 import com.example.kotlin.practice.test17.PracticeActivity17
 import com.example.kotlin.practice.test18.PracticeActivity18
+import com.example.kotlin.practice.test19.PracticeActivity19
 import com.example.kotlin.practice.test2.PracticeActivity2
 import com.example.kotlin.practice.test3.PracticeActivity3
 import com.example.kotlin.practice.test4.PracticeActivity4
@@ -158,6 +159,13 @@ class PracticeActivity : AppCompatActivity() {
      */
     fun onTest18(v : View) {
         startActivity(Intent(this, PracticeActivity18::class.java))
+    }
+
+    /**
+     * @JvmField 的用法
+     */
+    fun onTest19(v : View) {
+        startActivity(Intent(this, PracticeActivity19::class.java))
     }
 
 }

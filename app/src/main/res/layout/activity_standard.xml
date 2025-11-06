@@ -63,7 +63,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="静态方法 @JvmStatic"
+            android:text="静态方法"
             android:onClick="onTest6"
             android:layout_marginTop="10dp"
             android:textAllCaps="false" />

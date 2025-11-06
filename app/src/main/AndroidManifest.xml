@@ -47,7 +47,7 @@
         <activity android:name="com.example.kotlin.first.standard.StandardActivity1" />
         <activity android:name="com.example.kotlin.first.late.LateActivity" />
         <activity android:name="com.example.kotlin.first.expand.ExpandActivity" />
-        <activity android:name="com.example.kotlin.first.high_function.HighFunctionActivity" />
+        <activity android:name="com.example.kotlin.first.high_function.HighFunctionActivity1" />
 
         <activity android:name="com.example.kotlin.first.generic.GenericActivity" />
         <activity android:name="com.example.kotlin.first.generic.test1.GenericActivity1" />
@@ -189,6 +189,7 @@
         <activity android:name="com.example.kotlin.practice.test16.PracticeActivity16" />
         <activity android:name="com.example.kotlin.practice.test17.PracticeActivity17" />
         <activity android:name="com.example.kotlin.practice.test18.PracticeActivity18" />
+        <activity android:name="com.example.kotlin.practice.test19.PracticeActivity19" />
 
         <activity android:name="com.example.kotlin.mvc.kotlin.MvcKotlinActivity" />
         <activity android:name="com.example.kotlin.mvc.kotlin.test_activity.view.TestMvpActivity" />

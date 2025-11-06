@@ -88,7 +88,7 @@ class StandardActivity : AppCompatActivity() {
 
 
     /**
-     * 静态方法 @JvmStatic
+     * 静态方法
      */
     fun onTest6(v : View) {
         Util2.doAction2()

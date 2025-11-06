@@ -131,6 +131,11 @@ class LambdaActivity : AppCompatActivity() {
         val maxLengthFruit = list.maxBy { it.length }
 
         println("maxLengthFruit is " + maxLengthFruit)
+        Int
+        val list1 = listOf("Apple", "Banana", "Orange", "Pear", "Grape", "Watermelon")
+        val lambda = { fruit: String -> fruit.length }
+        val maxLengthFruit1 = list1.maxBy(lambda)
+
     }
 
 
@@ -212,4 +217,8 @@ class LambdaActivity : AppCompatActivity() {
         }.start()
     }
 
+}
+
+public inline fun <T, R : Comparable<R>> Iterable<T>.maxBy(selector: (T) -> R): T? {
+    return maxByOrNull(selector)
 }
