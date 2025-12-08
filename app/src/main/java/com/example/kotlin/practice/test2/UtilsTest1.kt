@@ -9,7 +9,7 @@ class UtilsTest1 {
 
     companion object {
 
-        @JvmStatic
+//        @JvmStatic
         fun log(str: String) {
             println("=========================> $str")
         }

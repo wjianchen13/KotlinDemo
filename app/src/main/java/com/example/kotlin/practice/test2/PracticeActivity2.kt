@@ -7,7 +7,7 @@ import com.example.kotlin.R
 import com.example.kotlin.xiangxue.delegate.Simple04
 
 /**
- * 静态方法
+ * @JvmStatic 静态方法
  */
 class PracticeActivity2 : AppCompatActivity() {
 
